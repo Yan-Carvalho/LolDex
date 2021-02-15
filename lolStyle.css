@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 415px;
+    height: 100vh;
+    background-image: linear-gradient(60deg,white, rgb(1, 64, 180), rgb(99, 1, 145));
+    margin: auto;
+    align-items: center;
+}
+.imgChampion{
+    margin: 15px;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 0;
+
+}
+.imgChampion2{
+    width: 100%;
+    height: 100%;
+}
+#text{
+    margin-top: 15px;
+    width: 90%;
+    height: 30px;
+    border: solid rgb(202, 200, 200);
+}
+#description{
+    overflow:auto;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+    width: 86%;
+    height: 150px;
+    background-color: lightgray; 
+    border: solid black;
+}
+#button{
+    width: 60%;
+    height: 30px;
+    margin-top: 10px;
+}
