@@ -38,7 +38,7 @@
     margin: 5px;
     width: 90%;
     height: 40vh;
-    background-color: lightgray; 
+    background-image: linear-gradient(180deg, white, rgb(197, 192, 192)); 
     border: solid black;
 }
 #button{
