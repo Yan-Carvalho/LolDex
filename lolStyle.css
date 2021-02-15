@@ -8,8 +8,7 @@
     flex-wrap: nowrap;
     max-width: 415px;
     height: 100vh;
-    /* background-image: linear-gradient(60deg,white, rgb(1, 64, 180), rgb(99, 1, 145)); */
-    background-image: url('loldex.png');
+    background-color: rgb(70, 137, 238);;
     margin: auto;
     align-items: center;
 }
@@ -24,10 +23,18 @@
     width: 100%;
     height: 100%;
 }
+.imgChampion3{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 95%;
+}
 #text{
-    margin-top: 40px;
+    margin-top: 5px;
+    margin-bottom: 0;
     width: 90%;
-    height: 30px;
+    height: 40px;
     border: solid rgb(202, 200, 200);
 }
 #description{
@@ -37,12 +44,32 @@
     padding: 10px;
     margin: 5px;
     width: 90%;
-    height: 40vh;
-    background-image: linear-gradient(180deg, white, rgb(197, 192, 192)); 
-    border: solid black;
+    height: 30vh;
+    background-image: linear-gradient(180deg, white, rgb(197, 192, 192));  
+    border: solid rgb(0, 18, 77);
+
 }
 #button{
+    background-color: rgb(255, 145, 0);
     width: 60%;
-    height: 30px;
+    height: 35px;
     margin-top: 10px;
+    font-weight: 700;
+}
+#button:hover{
+    background-color: rgb(223, 172, 7);
+}
+#button:active{
+    background-color: rgb(251, 255, 4);
+}
+h1{margin-bottom: 0;
+    margin-top:-7px;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    letter-spacing: -3px;
+    color: rgb(255, 153, 0);
+    text-shadow: -3px 1px 2px rgb(1, 9, 82);
+    font-size: 40px;
+    
 }
