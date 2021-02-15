@@ -192,5 +192,145 @@ function champ(){
         <br>E - METRALHADORA - A metralhadora de Corki dispara rapidamente em área de cone à sua frente, causando dano, reduzindo a Armadura e a Resistência Mágica do inimigo.
         <br> R - BARRAGEM DE MÍSSEIS -  Corki dispara um míssil em direção ao local alvo, que explode com o impacto, causando dano aos inimigos na área. Corki armazena mísseis ao longo do tempo, com um limite máximo. O 3º míssil armazenado será um Grandão, que causa dano adicional.
         </p>`
+    }else if(campeao == "darius" || campeao == "Darius"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg">`
+        description.innerHTML = `<p>Função: Lutador  |  Dificuldade: Baixa <br><br>Não há símbolo maior do poder de Noxus do que Darius, o mais temido e experiente comandante da nação.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - HEMORRAGIA - Os ataques e habilidades de dano de Darius fazem com que os inimigos sangrem, causando Dano Físico ao longo de 5s, acumulando-se até 5 vezes.
+        <br>Q - DIZIMAR - Darius pega impulso e golpeia com seu machado em um movimento circular. Os inimigos atingidos pela lâmina recebem mais dano do que aqueles atingidos pelo cabo. Darius cura a si mesmo com base nos Campeões inimigos e monstros grandes atingidos pela lâmina.
+        <br>W - ATAQUE MUTILADOR - O próximo ataque de Darius acerta uma artéria importante do inimigo. Enquanto ele sangra, sua Velocidade de Movimento é reduzida.
+        <br>E - APREENDER - Darius afia seu machado, fazendo com que seu Dano Físico ignore passivamente um percentual da Armadura do alvo. Quando ativado, Darius ataca seus inimigos com o gancho do seu machado e os puxa em sua direção.
+        <br>R - GUILHOTINA DE NOXUS - Darius salta na direção de um Campeão inimigo e o atinge com um golpe letal, causando Dano Verdadeiro. Este dano aumenta a cada acúmulo de Hemorragia no alvo. Se Guilhotina de Noxus causar o golpe final, seu Tempo de Recarga é zerado por um breve momento.
+        </p>`
+    }else if(campeao == "diana" || campeao == "Diana"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg">`
+        description.innerHTML = `<p>Função: Lutador  |  Dificuldade: Moderada <br><br>Empunhando sua espada lunar crescente, Diana luta como uma guerreira dos Lunari, um credo quase extinto nas terras ao redor do Monte Targon.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - ESPADA DE PRATA LUNAR - Cada terceiro ataque atinge os oponentes próximos, causando Dano Mágico adicional. Depois de conjurar uma habilidade, Diana recebe Velocidade de Ataque em seus próximos 3 ataques.
+        <br>Q - GOLPE CRESCENTE -  Faz um disparo de energia lunar em forma de arco, causando Dano Mágico. Afeta os inimigos atingidos com Plenilúnio, revelando-os por 3s se não estiverem furtivos.
+        <br>W - CASCATA LÍVIDA - Diana cria três esferas orbitantes que detonam ao contato com inimigos, causando dano em área. Ela também ganha um escudo temporário que absorve dano. Se a terceira esfera detonar, o escudo recebe resistência adicional.
+        <br>E - ZÊNITE LUNAR - Torna-se a encarnação viva da lua vingativa, avançando contra um inimigo e causando Dano Mágico. Zênite Lunar não tem Tempo de Recarga ao avançar em um inimigo afetado por Plenilúnio. Todos os outros inimigos terão o efeito de Plenilúnio removido independentemente de terem sido o alvo de Zênite Lunar.
+        <br>R - COLAPSO MINGUANTE  Diana revela e atrai todos os inimigos próximos e reduz a velocidade deles. Se Diana atrair um ou mais Campeões inimigos, o Plenilúnio cai sobre ela depois de um breve intervalo, causando Dano Mágico em uma área ao seu redor, aumentado a cada alvo atraído além do primeiro.
+        </p>`
+    }else if(campeao == "mundo" || campeao == "Dr.Mundo" || campeao=="Mundo"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg">`
+        description.innerHTML = `<p>Função: Lutador  |  Dificuldade: Moderada <br><br>Um homicida implacável, louco e terrivelmente roxo, Dr. Mundo é a figura responsável por manter muitos cidadãos de Zaun dentro de casa em noites mais escuras.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - INJETAR ADRENALINA - Dr. Mundo regenera 0,3% de sua Vida máxima a cada segundo.
+        <br>Q - CUTELO INFECTADO - Dr. Mundo arremessa seu cutelo, causando dano igual a uma parte da Vida atual de seu alvo e reduzindo sua velocidade por um curto período de tempo. Dr. Mundo adora ver o sofrimento dos outros e recupera metade do custo de Vida quando acerta um cutelo em alguém (dobrado se abater).
+        <br>W - AGONIA ARDENTE - Dr. Mundo drena a própria Vida para reduzir a duração de desarmes e causar dano contínuo a inimigos próximos.
+        <br>E - MASOQUISMO - Dr. Mundo recebe Dano de Ataque adicional com base em sua Vida perdida e seu próximo ataque básico dá uma cabeçada no alvo, causando dano adicional. Sua Resistência Mágica é aumentada passivamente sempre que ele sofrer Dano Mágico ou pagar um custo em Vida.
+        <br> R - SADISMO - Dr. Mundo sacrifica parte de sua Vida para aumentar a Velocidade de Movimento e aumentar drasticamente a Regeneração de Vida.
+        </p>`
+    }else if(campeao == "ekko" || campeao == "Ekko"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg">`
+        description.innerHTML = `<p>Função: Assassino  |  Dificuldade: Alta <br><br>Um prodígio das ruas violentas de Zaun, Ekko manipula o tempo para reverter qualquer situação a seu favor. Usando sua própria invenção, o Revo-Z, ele explora as possíveis bifurcações da realidade para criar o momento perfeito.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - RESSONÂNCIA REVO-Z - Cada terceiro ataque ou habilidade de dano no mesmo alvo causa Dano Mágico adicional e concede a Ekko um impulso de velocidade se o alvo for um Campeão.
+        <br>Q - GIRATEMPO - Ekko arremessa uma granada que se expande em um campo de distorção temporal ao atingir um Campeão inimigo, causando dano e reduzindo a velocidade de todos dentro de sua área de ação. Após um intervalo, a granada retorna em direção a Ekko, causando dano no trajeto de volta.
+        <br>W - CONVERGÊNCIA PARALELA - Os ataques básicos de Ekko causam Dano Mágico adicional aos inimigos com Vida baixa. Ekko pode conjurar Convergência Paralela para separar a linha do tempo, causando uma anomalia após alguns segundos e reduzindo a velocidade de inimigos pegos por ela. Se Ekko adentrar a anomalia, ele receberá um escudo e acionará uma detonação que atordoa os inimigos, colocando-os em estase temporal.
+        <br>E - MERGULHO FÁSICO - Ekko faz um rolamento evasivo enquanto carrega seu Revo-Z. Seu próximo ataque causa dano adicional e distorce a realidade, teleportando-o a seu alvo.
+        <br>R - CRONOQUEBRA - Ekko estilhaça sua linha do tempo, tornando-se inalvejável e rebobinando para um ponto mais favorável no tempo. Ele retorna para qualquer ponto que esteve nos últimos segundos e se cura em um percentual do dano recebido nesta duração. Inimigos próximos a sua área de chegada recebem dano massivo.
+        </p>`
+    }else if(campeao == "elise" || campeao == "Elise"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg">`
+        description.innerHTML = `<p>Função: Mago  |  Dificuldade: Alta <br><br>Elise é uma predadora mortal que vive em um palácio escuro e reservado nas profundezas da cidade mais antiga de Noxus.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - ARANHA RAINHA - Forma Humana: Quando as habilidades de Elise atingem um inimigo, ela recebe uma Cria dormente. Forma de Aranha: Ataques básicos causam Dano Mágico adicional e restauram a Vida de Elise.
+        <br>Q - NEUROTOXINA / MORDIDA VENENOSA - Forma Humana: Causa dano com base em quão alta está a Vida do alvo. Forma de Aranha: Avança até um inimigo e causa dano com base em quão baixa está a Vida do alvo.
+        <br>W - CRIA VOLÁTIL / FRENESI ARACNÍDEO - Forma Humana: Elise lança uma cria banhada em veneno que explode ao se aproximar de um alvo. Forma de Aranha: Elise e suas Crias recebem Velocidade de Ataque.
+        <br>E - CASULO / RAPEL - Forma Humana: atordoa a primeira unidade inimiga atingida e a revela se não estiver em furtividade. Forma de Aranha: Elise e suas crias se lançam ao ar, depois descem sobre um alvo inimigo. Após descer sobre o alvo, o dano adicional de Elise e a cura de Aranha Rainha são aumentados.
+        <br>R - FORMA DE ARANHA - Transforma-se em uma ameaçadora aranha, reduzindo seu alcance de ataque em troca de Velocidade de Movimento, novas habilidades e um aglomerado de Crias que atacarão seus inimigos.
+        </p>`
+    }else if(campeao == "evelynn" || campeao == "Evelynn"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg">`
+        description.innerHTML = `<p>Função: Assassino  |  Dificuldade: Alta <br><br>Nas ruelas sombrias de Runeterra, a criatura demoníaca Evelynn busca sua próxima vítima. Ela atrai presas com sua voluptuosa aparência de fêmea humana, mas assim que a vítima sucumbe ao seu charme, a verdadeira forma de Evelynn é revelada.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - SOMBRA DEMONÍACA - Quando está fora de combate, Evelynn entra em Sombra Demoníaca. A Sombra Demoníaca cura Evelynn quando ela está com pouca Vida e concede Camuflagem após o nível 6.
+        <br>Q - ESPINHO DE ÓDIO - Evelynn ataca com seu Chicote, causando dano ao primeiro inimigo atingido. Depois, Evelynn dispara uma linha de espinhos até 3 vezes contra inimigos próximos.
+        <br>W - FASCINAÇÃO - Evelynn amaldiçoa seu alvo, fazendo com que o próximo ataque ou habilidade dela o encante e reduza sua Resistência Mágica depois um intervalo.
+        <br>E - CHICOTADA - Evelynn açoita seu alvo com seu Chicote, causando dano. Depois, ela ganha Velocidade de Movimento por um breve período.
+        <br>R - ÚLTIMA CARÍCIA - Evelynn fica inalvejável por um breve período e dizima a área à sua frente antes de se mover uma longa distância para trás.
+        </p>`
+    }else if(campeao == "ezreal" || campeao == "Ezreal"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg">`
+        description.innerHTML = `<p>Função: Atirador  |  Dificuldade: Moderada <br><br> Um aventureiro arrojado, com um talento nato nas artes mágicas, Ezreal desbrava catacumbas soterradas, envolve-se com antigas maldições e supera com facilidade as situações mais improváveis.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - FEITIÇO DO PODER CRESCENTE - Ezreal recebe Velocidade de Ataque crescente a cada vez que acerta uma habilidade, acumulando-se até 5 vezes.
+        <br>Q - DISPARO MÍSTICO - Ezreal faz um disparo de energia que reduz um pouco o Tempo de Recarga de todas as suas habilidades caso atinja uma unidade inimiga.
+        <br>W - FLUXO ESSENCIAL - Ezreal dispara um orbe que prende-se ao primeiro Campeão ou objetivo atingido. Caso atinja um inimigo preso com o orbe, ele detonará e causará dano.
+        <br>E - TRANSLOCAÇÃO ARCANA - Ezreal teleporta-se para um local-alvo próximo e faz um disparo teleguiado na unidade inimiga mais próxima. Prioriza inimigos atingidos com Fluxo Essencial.
+        <br>R - BARRAGEM INCENDIÁRIA - Ezreal carrega antes de disparar uma poderosa barragem de energia que causa dano massivo em cada unidade que atravessar (o dano é reduzido contra tropas e monstros não épicos).
+        </p>`
+    }else if(campeao == "fiddlesticks" || campeao == "Fiddlesticks"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_0.jpg">`
+        description.innerHTML = `<p>Função: Mago  |  Dificuldade: Alta <br><br>Algo despertou em Runeterra. Algo ancestral. Algo terrível. O eterno terror conhecido como Fiddlesticks vaga pelos confins do mundo mortal, atraído por áreas dominadas por uma paranoia palpável, onde se alimenta de vítimas apavoradas.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - UM ESPANTALHO INOFENSIVO - O amuleto de Fiddlesticks é substituído por efígies do espantalho.
+        <br>Q - ATERRORIZAR - Ao causar dano a inimigos com habilidades enquanto não estiver sendo visto ou alvejar um inimigo com Aterrorizar, Fiddlesticks inflige medo em uma unidade-alvo inimiga, fazendo com que fuja aterrorizada por um curto período.
+        <br>W - COLHEITA FARTA - Fiddlesticks drena a Vida dos inimigos próximos, causando dano de execução adicional no fim da duração.
+        <br>E - CEIFAR - Fiddlesticks ceifa uma área com sua foice, reduzindo a velocidade de movimento de todos os inimigos atingidos e silenciando os atingidos no centro do corte.
+        <br>R - TEMPESTADE DE CORVOS - Uma revoada de corvos assassinos voa em volta de Fiddlesticks, causando dano por segundo a todas as unidades inimigas próximas.
+        </p>`
+    }else if(campeao == "fiora" || campeao == "Fiora"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg">`
+        description.innerHTML = `<p>Função: Lutador  |  Dificuldade: Baixa <br><br>A duelista mais temida de toda Valoran, Fiora é renomada tanto por suas maneiras bruscas e perspicácia quanto pela velocidade de sua rapieira de aço.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DANÇA DA DUELISTA - Fiora desafia Campeões inimigos próximos para que desviem dela e indica a direção pela qual tentará atingi-los. Caso consiga completar o próprio desafio, receberá um pequeno adicional e indicará uma nova direção.
+        <br>Q - ESTOCADA - Fiora avança em uma direção e golpeia um inimigo próximo, causando Dano Físico e aplicando efeitos de contato.
+        <br>W - RIPOSTAR - Fiora apara todo o dano e desarmes recebidos por um curto período de tempo, golpeando na direção alvo em seguida. Este golpe reduz a velocidade do primeiro campeão inimigo atingido. O golpe pode atordoar caso Fiora tenha bloqueado um efeito imobilizante com esta habilidade.
+        <br>E - ESGRIMA - Fiora ganha aumento na Velocidade de Ataque pelos próximos dois ataques. O primeiro ataque reduz a velocidade do alvo e o segundo ataque causará acerto crítico.
+        <br>R - DESAFIO GRANDIOSO - Fiora revela todos os quatro Pontos Vitais de um Campeão inimigo e recebe Velocidade de Movimento enquanto se aproxima dele. Se Fiora atingir os 4 Pontos Vitais ou se o alvo morrer depois que ela atingir pelo menos um deles, Fiora e os aliados que estiverem na área são curados pelos próximos segundos.
+        </p>`
+    }else if(campeao == "fizz" || campeao == "Fizz"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_0.jpg">`
+        description.innerHTML = `<p>Função: Assassino  |  Dificuldade: Moderado <br><br>Fizz é um yordle anfíbio que vive entre os recifes que rodeiam Águas de Sentina.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - LUTADOR LIGEIRO - Fizz pode se mover através de unidades e sofre uma quantidade fixa de dano reduzido de todas as origens.
+        <br>Q - ATAQUE DO OURIÇO - Fizz avança em direção ao alvo, causando Dano Mágico e aplicando efeitos de contato.
+        <br>W - TRIDENTE DA PEDRA DO MAR - Os ataques de Fizz fazem seus inimigos sangrarem, causando Dano Mágico por vários segundos. Fizz pode fortalecer seu próximo ataque para causar dano adicional e fortalecer os seguintes por um curto período.
+        <br>E - BRINCALHÃO / TRAPACEIRO - Fizz faz acrobacias no ar, aterrissando graciosamente sobre seu tridente e ficando inalvejável. Desta posição, ele pode tanto golpear o chão quanto pular novamente antes de cair de vez.
+        <br>R - LANÇAR ISCA - Fizz arremessa um peixe em determinada direção, que se prende a qualquer Campeão que tocar, reduzindo a velocidade do alvo. Após um curto intervalo, um tubarão emerge do chão, lançando o alvo ao ar e empurrando outros inimigos para trás. Todos os inimigos atingidos recebem Dano Mágico e têm sua velocidade reduzida.
+        </p>`
+    }else if(campeao == "galio" || campeao == "Galio"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_0.jpg">`
+        description.innerHTML = `<p>Função: Tanque  |  Dificuldade: Moderado <br><br>Do lado de fora da reluzente cidade de Demacia, Galio, o colosso de pedra, vigia com zelo. Construído como bastião contra magos inimigos, ele geralmente permanece imóvel por décadas até que a presença de uma magia poderosa o desperte.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA -  ESMAGADA COLOSSAL - A cada poucos segundos, o próximo ataque básico de Galio causa Dano Mágico adicional em área.
+        <br>Q - VENTOS DE GUERRA - Galio dispara duas rajadas de vento que convergem em um grande tornado e causam dano ao longo do tempo.
+        <br>W - ESCUDO DE DURAND - Galio carrega em postura defensiva, movendo-se lentamente. Ao soltar o carregamento, ele provocará e causará dano a inimigos próximos.
+        <br>E - SOCO JUSTICEIRO - Galio dá um passo para trás e avança, arremessando ao ar o primeiro Campeão com que colidir.
+        <br>R - ENTRADA HEROICA - Galio marca a posição de um aliado como ponto de aterrissagem e concede um escudo mágico a todos os aliados na área. Após um intervalo, ele aterrissa no local, arremessando os inimigos próximos ao ar.      
+        </p>`
+    }else if(campeao == "gangplank" || campeao == "Gangplank"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_0.jpg">`
+        description.innerHTML = `<p>Função: Lutador  |  Dificuldade: Alta <br><br>Tão inesperado quanto brutal, o autointitulado Rei dos Ladrões conhecido como Gangplank é temido por todos os mares.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - JULGAMENTO DE FOGO - Periodicamente, o ataque corpo a corpo de Gangplank deixará seu inimigo em chamas.
+        <br>Q - NEGOCIARRR - Dispara no alvo, saqueando ouro para cada abate de unidade.
+        <br>W - REMOVER ESCORBUTO - Come fruta cítrica para curar efeitos de controle de grupo e restaurar Vida.
+        <br>E - BARRIL DE PÓLVORA - Gangplank posiciona um Barril de Pólvora no local-alvo. Ele explodirá caso seja atacado, causando dano aos inimigos na área e reduzindo a Velocidade de Movimento deles.
+        <br>R - BARRAGEM DE CANHÃO - Gangplank sinaliza para que seu navio bombardeie uma área, causando dano e lentidão aos inimigos.
+        </p>`
+    }else if(campeao == "garen" || campeao == "Garen"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg">`
+        description.innerHTML = `<p>Função: Lutador  |  Dificuldade: Moderado <br><br>Um guerreiro nobre e orgulhoso, Garen faz parte da Vanguarda Destemida.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - PERSEVERANÇA - Se Garen não tiver sido atingido recentemente por dano ou habilidades inimigas, ele regenera um percentual de sua Vida total a cada segundo.
+        <br>Q - ACERTO DECISIVO - Garen recebe Velocidade de Movimento adicional, libertando-se de todos os efeitos de redução de velocidade. Seu próximo ataque atinge uma área vital do inimigo, causando dano adicional e silenciando-o.
+        <br>W - CORAGEM - Garen aumenta sua Armadura e Resistência Mágica passivamente ao abater inimigos. Ele também pode ativar essa habilidade para receber um escudo e Tenacidade por um breve período, seguido de uma quantidade menor de redução de dano com maior duração.
+        <br> E - JULGAMENTO - Garen gira rapidamente a espada ao redor do corpo dele, causando Dano Físico a inimigos próximos.
+        <br>R - JUSTIÇA DEMACIANA - Garen evoca o Poder de Demacia para tentar executar um Campeão inimigo.
+        </p>`
+    }else if(campeao == "gnar" || campeao == "Gnar"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg">`
+        description.innerHTML = `<p>Função: Lutador  |  Dificuldade: Alta <br><br>Gnar é um yordle primitivo cujas artimanhas brincalhonas podem irromper em uma raiva infantil em um instante, transformando-o em uma besta gigantesca determinada a destruir.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - FÚRIA GENÉTICA - Enquanto está em combate, Gnar gera Fúria. Quando atinge o máximo de Fúria, sua próxima habilidade o transformará em Mega-Gnar, concedendo mais condições de sobrevivência e acesso a novas habilidades.
+        <br>Q - BUMERANGUE / PEDREGULHO - Gnar lança um bumerangue que causa dano e Lentidão a inimigos que atinge antes de retornar a ele. Caso apanhe o bumerangue, seu Tempo de Recarga é reduzido. Mega Gnar arremessa um pedregulho que para na primeira unidade atingida, causando dano e Lentidão a tudo o que estiver próximo. Em seguida, ele pode ser apanhado para reduzir o Tempo de Recarga.
+        <br>W - HIPERATIVO / SAFANÃO - Os ataques e habilidades de Gnar o animam, causando dano adicional e concedendo Velocidade de Movimento. Mega Gnar fica enfurecido demais para ficar hiperativo. Em vez disso, ele pode subir em duas patas e atingir a área à sua frente, atordoando inimigos em área.
+        <br>E - SALTO / ENCONTRÃO - Gnar salta em um local e atinge a cabeça de qualquer unidade em que aterrissar, deslocando-se ainda mais. Mega Gnar é grande demais para saltar e, em vez disso, aterrissa com força para quebrar o chão, causando dano em área ao seu redor.
+        <br>R - GNAR! - Mega Gnar joga tudo o que estiver próximo de si em uma direção escolhida, causando dano e Lentidão. Qualquer inimigo que atingir uma parede fica atordoado e recebe dano adicional.
+        </p>`
     }
 }
