@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="lolStyle.css" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <title>LOLDex</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container logo">
+        <h1><span class="iconify" data-icon="noto:small-orange-diamond" data-inline="false"></span>LOLDEX<span class="iconify" data-icon="noto:small-orange-diamond" data-inline="false"></span></h1>
         <input id="text" type="text" onkeypress="champ()" placeholder="Digite o nome do campeão...">
-        <button id="button" type="submit" onclick="champ()">pesquisar</button>
-        <div id="champion" class="imgChampion"></div>
-        <div id="description"></div>
+        <button id="button" type="submit" onclick="champ()">BUSCAR</button>
+        <div id="champion" class="imgChampion"><img class="imgChampion2" src="imagens/lol1.png"> </div>
+        <div id="description">
+            <img class="imgChampion3" src="imagens/summoners-rift4.png">
+        </div>
     </div>
     <script src="lolScript.js"></script>
 </body>
