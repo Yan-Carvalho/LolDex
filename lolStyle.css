@@ -34,7 +34,7 @@
     margin-top: 5px;
     margin-bottom: 0;
     width: 90%;
-    height: 40px;
+    min-height: 30px;
     border: solid rgb(202, 200, 200);
 }
 #description{
@@ -52,7 +52,7 @@
 #button{
     background-color: rgb(255, 145, 0);
     width: 60%;
-    height: 35px;
+    min-height: 30px;
     margin-top: 10px;
     font-weight: 700;
 }
