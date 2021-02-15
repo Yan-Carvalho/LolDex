@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="lolStyle.css" rel="stylesheet">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>LOLDex</title>
 </head>
 <body>
@@ -12,11 +14,17 @@
         <h1><span class="iconify" data-icon="noto:small-orange-diamond" data-inline="false"></span>LOLDEX<span class="iconify" data-icon="noto:small-orange-diamond" data-inline="false"></span></h1>
         <input id="text" type="text" onkeypress="champ()" placeholder="Digite o nome do campeão...">
         <button id="button" type="submit" onclick="champ()">BUSCAR</button>
-        <div id="champion" class="imgChampion"><img class="imgChampion2" src="imagens/lol1.png"> </div>
+        <div id="champion" class="carrosel">
+           <div><img class="imgChampion2" src="imagens/lol1.png"></div>
+           <div><img class="imgChampion2" src="imagens/sett2.png"></div>
+           <div><img class="imgChampion2" src="imagens/jinx2.png"></div>
+        </div>
         <div id="description">
             <img class="imgChampion3" src="imagens/summoners-rift4.png">
         </div>
     </div>
+    
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="lolScript.js"></script>
 </body>
 </html>
