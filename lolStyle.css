@@ -8,7 +8,7 @@
     flex-wrap: nowrap;
     max-width: 415px;
     height: 100vh;
-    background-image: linear-gradient(60deg,white, rgb(1, 64, 180), rgb(99, 1, 145));
+    background-image: url('loldex.png');
     margin: auto;
     align-items: center;
 }
