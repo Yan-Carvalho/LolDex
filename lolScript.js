@@ -1,12 +1,5 @@
 
-$('.carrosel').slick({
-    arrows: false,
-    Infinity: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4000
-});
+$('.carrosel').slick({arrows: false, Infinity: true, slidesToShow: 1, slidesToScroll: 1, autoplay: true, autoplaySpeed: 4000});
 
 let champion = document.getElementById("champion")
 let description = document.getElementById("description")
