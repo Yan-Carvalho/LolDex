@@ -313,7 +313,7 @@ function champ(){
         </p>`
     }else if(campeao == "garen" || campeao == "Garen"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg">`
-        description.innerHTML = `<p>Função: Lutador  |  Dificuldade: Moderado <br><br>Um guerreiro nobre e orgulhoso, Garen faz parte da Vanguarda Destemida.
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Moderado <br><br>Um guerreiro nobre e orgulhoso, Garen faz parte da Vanguarda Destemida.
         <br><br>HABILIDADES<br><br>
         PASSIVA - PERSEVERANÇA - Se Garen não tiver sido atingido recentemente por dano ou habilidades inimigas, ele regenera um percentual de sua Vida total a cada segundo.
         <br>Q - ACERTO DECISIVO - Garen recebe Velocidade de Movimento adicional, libertando-se de todos os efeitos de redução de velocidade. Seu próximo ataque atinge uma área vital do inimigo, causando dano adicional e silenciando-o.
@@ -323,7 +323,7 @@ function champ(){
         </p>`
     }else if(campeao == "gnar" || campeao == "Gnar"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg">`
-        description.innerHTML = `<p>Função: Lutador  |  Dificuldade: Alta <br><br>Gnar é um yordle primitivo cujas artimanhas brincalhonas podem irromper em uma raiva infantil em um instante, transformando-o em uma besta gigantesca determinada a destruir.
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Alta <br><br>Gnar é um yordle primitivo cujas artimanhas brincalhonas podem irromper em uma raiva infantil em um instante, transformando-o em uma besta gigantesca determinada a destruir.
         <br><br>HABILIDADES<br><br>
         PASSIVA - FÚRIA GENÉTICA - Enquanto está em combate, Gnar gera Fúria. Quando atinge o máximo de Fúria, sua próxima habilidade o transformará em Mega-Gnar, concedendo mais condições de sobrevivência e acesso a novas habilidades.
         <br>Q - BUMERANGUE / PEDREGULHO - Gnar lança um bumerangue que causa dano e Lentidão a inimigos que atinge antes de retornar a ele. Caso apanhe o bumerangue, seu Tempo de Recarga é reduzido. Mega Gnar arremessa um pedregulho que para na primeira unidade atingida, causando dano e Lentidão a tudo o que estiver próximo. Em seguida, ele pode ser apanhado para reduzir o Tempo de Recarga.
