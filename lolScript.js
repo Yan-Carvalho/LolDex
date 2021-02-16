@@ -616,7 +616,7 @@ function champ(){
         <br>R - FÚRIA DO DRAGÃO - Lee Sin executa um poderoso chute giratório, arremessando seu alvo para trás e causando Dano Físico ao alvo e a qualquer inimigo com quem ele colidir. Esses inimigos são lançados ao ar durante um curto período. Essa técnica foi ensinada a ele por Jesse Perring, mas Lee Sin não chuta os jogadores para fora do mapa.   
         </p>`
     }else if(campeao == "leona" || campeao == "Leona"){
-        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona0.jpg">`
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg">`
         description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Moderada <br><br>Impregnada pelas chamas do sol, Leona é uma guerreira sagrada de Solari que defende o Monte Targon com sua Lâmina Zênite e a Proteção da Aurora.
         <br><br>HABILIDADES<br><br>
         PASSIVA - LUZ DO SOL - Habilidades que causam dano atingem os inimigos com Luz do Sol por 1,5s. Quando Campeões aliados causam dano a esses alvos, a Luz do Sol é consumida para causar Dano Mágico adicional.
