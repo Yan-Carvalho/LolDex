@@ -5,16 +5,7 @@ let description = document.getElementById("description")
 
 function champ(){
     let campeao = document.getElementById("text").value;
-    if(campeao == "draven" || campeao == "Draven"){
-        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg">`
-        description.innerHTML = `<p>'''O melhor' é onde eu decido colocar os limites de cada dia.''</p>`
-    } else if(campeao == "Seraphine" || campeao == "seraphine"){
-        champion.innerHTML = `<img class="imgChampion2" src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6921c7fcf379895c/5f7e3beaf11ee70e9e14e7a2/ser450kb.jpg">`
-        description.innerHTML = `<p>Nascida em Piltover e filha de zaunitas, Seraphine é capaz de ouvir
-         a alma das pessoas. O mundo canta para ela, e ela canta em resposta.
-          Embora esses sons a tenham atormentado na juventude,
-         hoje eles a inspiram, fazendo com que ela transforme o caos em uma sinfonia</p>`
-    }else if(campeao == "aatrox" || campeao == "Aatrox"){
+    if(campeao == "aatrox" || campeao == "Aatrox"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg">`
         description.innerHTML = `<p>Antes defensores honrados de Shurima contra o temido Vazio, 
         Aatrox e sua raça no fim se tornaram uma ameaça 
