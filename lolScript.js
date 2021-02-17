@@ -102,7 +102,7 @@ function champ(){
         <br>R - DECRETO DO IMPERADOR - Azir invoca uma parede de soldados que marcha em frente, causando dano e empurrando para trás os inimigos.
         </p>`
     }else if(campeao == "bardo" || campeao == "Bardo"){
-        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bardo_0.jpg">`
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg">`
         description.innerHTML = `<pFunção: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Alta <br><br>Viajante de galáxias distantes, Bardo é um agente do acaso que luta para manter um equilíbrio em que a vida possa suportar a indiferença do caos.
         <br><br>HABILIDADES<br><br>
         PASSIVA - CHAMADO DO VIAJANTE - Mipes: Bardo atrai pequenos espíritos que ajudam em seus ataques básicos e causam Dano Mágico adicional. Quando Bardo coleta sinos o suficiente, os mipes também causam dano em uma área e reduzem a velocidade de inimigos atingidos. Sinos: Sinos ancestrais aparecem aleatoriamente para Bardo coletar. Eles concedem experiência, Mana máximo e acúmulos de Velocidade de Movimento quando fora de combate.
@@ -220,6 +220,16 @@ function champ(){
         <br>W - AGONIA ARDENTE - Dr. Mundo drena a própria Vida para reduzir a duração de desarmes e causar dano contínuo a inimigos próximos.
         <br>E - MASOQUISMO - Dr. Mundo recebe Dano de Ataque adicional com base em sua Vida perdida e seu próximo ataque básico dá uma cabeçada no alvo, causando dano adicional. Sua Resistência Mágica é aumentada passivamente sempre que ele sofrer Dano Mágico ou pagar um custo em Vida.
         <br> R - SADISMO - Dr. Mundo sacrifica parte de sua Vida para aumentar a Velocidade de Movimento e aumentar drasticamente a Regeneração de Vida.
+        </p>`
+    }else if(campeao == "draven" || campeao == "Draven"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Alta <br><br>Em Noxus, guerreiros conhecidos como Desafiadores lutam um contra o outro em uma arena onde sangue é derramado e a força é testada, mas nenhum foi tão celebrado como Draven
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - LEAGUE OF DRAVEN - Draven ganha Adoração de seus fãs quando apanha uma Revolução do Machado ou abate uma tropa, monstro ou torre. Abater Campeões inimigos concede ouro adicional a Draven, com base em quanta Adoração ele tem.
+        <br>Q - REVOLUÇÃO DO MACHADO - O próximo ataque de Draven causará Dano Físico adicional. O machado ricocheteará do alvo em direção ao ar. Se Draven o apanhar, ele automaticamente irá preparar outra Revolução do Machado. Draven pode ter duas Revoluções do Machado simultaneamente em ação.
+        <br>W - ADRENALINA - Draven ganha um aumento de Velocidade de Movimento e de Ataque. O aumento na Velocidade de Movimento decai rapidamente ao longo da duração. Apanhar uma Revolução do Machado fará com que o Tempo de Recarga de Adrenalina seja zerado.
+        <br>E - SAI DA FRENTE - Draven arremessa seus machados, causando Dano Físico aos alvos atingidos e empurrando-os para o lado. Os alvos atingidos sofrem redução de velocidade.
+        <br>R - RETA DA MORTE - Draven arremessa dois machados gigantes para causar Dano Físico a cada unidade atingida. Reta da Morte lentamente muda de direção e retorna a Draven após atingir um Campeão inimigo. Draven também pode ativar essa habilidade enquanto seus machados estiverem em percurso para fazer com que voltem antecipadamente. Causa menos dano para cada unidade atingida e zera quando os machados mudam de direção.
         </p>`
     }else if(campeao == "ekko" || campeao == "Ekko"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg">`
@@ -634,6 +644,413 @@ function champ(){
         <br>W - CUIDADO! IIIP! - Lillia causa dano em uma área próxima, com dano amplificado no centro.
         <br>E - SEMENTE ESPIRAL - Lillia lança uma semente que causa dano e reduz a velocidade dos inimigos atingidos. Caso não atinja nada, Semente Espiral continuará avançando até colidir com uma parede ou alvo.
         <br>R - CADÊNCIA DE NINAR - Todos os inimigos com Pó dos Sonhos são afetados por Sonolência e adormecem em seguida. Esses inimigos sofrem dano adicional se forem acordados de forma abrupta por dano.
+        </p>`
+    }else if(campeao == "lissandra" || campeao == "Lissandra"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lissandra_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>A magia de Lissandra transforma o poder bruto do gelo em algo sombrio e terrível.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - SUBMISSÃO GLACINATA - Quando um Campeão inimigo morre próximo a Lissandra, ele vira um Servo Congelado. Servos Congelados reduzem a velocidade de inimigos próximos e, depois de um intervalo, estilhaçam devido ao frio intenso, causando Dano Mágico a alvos próximos.
+        <br>Q - ESTILHAÇO DE GELO - Arremessa uma lança de gelo que se estilhaça ao atingir um inimigo, causando Dano Mágico e reduzindo sua Velocidade de Movimento. Os estilhaços atravessam o alvo, causando o mesmo dano a outros inimigos atingidos.
+        <br>W - CÍRCULO ÁRTICO - Prende inimigos próximos em gelo, causando-lhes Dano Mágico e enraizando-os.
+        <br>E - CAMINHO GLACIAL - Lissandra cria uma garra de gelo que causa Dano Mágico. Reativar essa habilidade transporta Lissandra ao local atual da garra.
+        <br>R - TÚMULO CONGELADO - Se conjurada em um Campeão inimigo, o alvo será congelado e atordoado. Se conjurada em Lissandra, ela se protege em um bloco de gelo sombrio, curando a si mesma enquanto fica inalvejável e invulnerável. Em seguida, o gelo sombrio emana a partir do alvo, causando Dano Mágico e reduzindo a Velocidade de Movimento de inimigos.
+        </p>`
+    }else if(campeao == "lucian" || campeao == "Lucian"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Moderada <br><br>Lucian, um Sentinela da Luz, é um caçador de espíritos imortais que usa suas pistolas relicárias para persegui-los implacavelmente e, por fim, aniquilá-los.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DISPARO ILUMINADO - Sempre que Lucian usa uma habilidade, seu próximo ataque terá disparo duplo.
+        <br>Q - LUZ PERFURANTE - Lucian faz um disparo de luz perfurante através de um alvo.
+        <br>W - CHAMA ARDENTE - Lucian dispara um projétil que explode em formato de estrela, marcando e revelando brevemente os inimigos. Ele recebe Velocidade de Movimento por atacar inimigos marcados.
+        <br>E - PERSEGUIÇÃO IMPLACÁVEL - Lucian avança rapidamente uma curta distância. Disparo Iluminado reduz o Tempo de Recarga de Perseguição Implacável.
+        <br>R - O EXPURGO - Lucian desfere uma torrente de disparos de suas armas.   
+        </p>`
+    }else if(campeao == "lulu" || campeao == "Lulu"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lulu_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Moderada <br><br>A maga yordle Lulu é conhecida por conjurar ilusões de sonhos e criaturas fantasiosas enquanto vaga por Runeterra com seu silfo companheiro, Pix.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - PIX, O SILFO COMPANHEIRO - Pix faz disparos de energia mágica sempre que o Campeão que estiver seguindo atacar outra unidade inimiga. Os disparos seguem o inimigo, mas podem ser interceptados por outras unidades.
+        <br>Q - LANÇA-PURPURINA - Pix e Lulu disparam um raio de energia mágica que causa dano e muita Lentidão aos inimigos atingidos.
+        <br>W - CAPRICHOS - Se conjurada sobre um aliado, ela lhe concede Velocidade de Movimento por um curto período de tempo. Se lançado sobre um inimigo, ele é transformado em um adorável bichinho que não pode atacar nem lançar feitiços.
+        <br>E - SOCORRO, PIX! - Se conjurada em um aliado, ordena para que Pix pule nele e o proteja. Ela em seguida o segue e ajuda com seus ataques. Se conjurada em um inimigo, ordena para que Pix pule nele e o atinja. Ela o segue e lhe concede visão do inimigo.
+        <br>R - CRESCIMENTO VIRENTE - Lulu aumenta o tamanho de um aliado, arremessando ao ar inimigos próximos e concedendo ao aliado uma grande quantidade de Vida adicional. Pelos próximos segundos, tal aliado recebe uma aura que reduz a velocidade de inimigos próximos.
+        </p>`
+    }else if(campeao == "lux" || campeao == "Lux"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Luxanna Stemmaguarda nasceu em Demacia, um reino insular onde habilidades mágicas são vistas com medo e desconfiança.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - ILUMINAÇÃO - As habilidades de dano de Lux carregam o alvo com energia por 6s. O próximo ataque de Lux incendeia a energia, causando Dano Mágico adicional (com base no nível de Lux) ao alvo.
+        <br>Q - LIGAÇÃO DA LUZ - Lux atira uma esfera de luz que se prende e causa dano em até duas unidades inimigas.
+        <br>W - BARREIRA PRISMÁTICA - Lux lança sua varinha e uma luz envolve todos os aliados atingidos, protegendo-os contra dano inimigo.
+        <br>E - SINGULARIDADE LUCENTE - Dispara uma luz irregular em uma área, reduzindo a velocidade de inimigos próximos. Lux pode detoná-la para causar dano aos inimigos na área de ação.
+        <br>R - CENTELHA FINAL - Após acumular energia, Lux dispara um feixe de luz que causa dano a todos os inimigos na área. Além disso, ativa a habilidade passiva de Lux e reinicia a duração do efeito de Iluminação.
+        </p>`
+    }else if(campeao == "malphite" || campeao == "Malphite"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malphite_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Baixa <br><br>Uma criatura gigantesca de pedra viva, Malphite pena para impor ordem abençoada em um mundo caótico.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - ESCUDO DE GRANITO - Malphite está protegido por uma camada de rocha que absorve dano equivalente a até 10% de sua Vida máxima. Se Malphite não for atingido por alguns segundos, o efeito é recarregado.
+        <br>Q - FRAGMENTO SÍSMICO - Malphite arremessa um fragmento de terra no inimigo através do chão, causando dano ao impacto e roubando Velocidade de Movimento por 3s.
+        <br>W - TROVOADA - Malphite ataca com tamanha força que cria uma onda sônica. Pelos próximos segundos, seus ataques criam ondas de choque em sua frente.
+        <br>E - ESTRONDAR TERRENO - Malphite golpeia o chão, enviando uma onda de choque que causa Dano Mágico com base em sua Armadura e reduz a Velocidade de Ataque dos inimigos por um curto período.
+        <br>R - FORÇA INCONTROLÁVEL - Malphite se arremessa em alta velocidade até um local, causando dano aos inimigos e Arremessando-os ao ar.
+        </p>`
+    }else if(campeao == "malzahar" || campeao == "Malzahar"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malzahar_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Um vidente fanático dedicado à unificação de toda a vida, Malzahar realmente acredita que o Vazio que recém surgiu é o caminho para a salvação de Runeterra.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - OSCILAÇÃO DO VAZIO - Caso não tenha sofrido dano ou efeitos de Controle de Grupo recentemente, Malzahar recebe uma enorme redução de dano e imunidade a Controles de Grupo, que duram um curto período após sofrer dano.
+        <br>Q - CHAMADO DO VAZIO - Malzahar abre dois portais para o Vazio. Depois de um breve intervalo, eles disparam projéteis que causam Dano Mágico e silenciam Campeões inimigos.
+        <br>W - ENXAME DO VAZIO - Malzahar invoca Voidlings para atacar inimigos próximos.
+        <br>E - VISÕES MALÉFICAS - Malzahar infecta a mente de seu alvo com visões cruéis de sua própria morte, causando dano ao longo do tempo. Usar as outras habilidades de Malzahar no alvo reiniciará o efeito. Se o alvo for abatido enquanto afligido pelas visões, elas são transmitidas para uma unidade inimiga próxima e Malzahar recebe Mana. Os Voidlings de Malzahar são atraídos para as unidades afetadas.
+        <br>R - APERTO ÍNFERO - Malzahar canaliza a essência do Vazio para suprimir o Campeão-alvo sobre uma área de energia negativa.
+        </p>`
+    }else if(campeao == "maokai" || campeao == "Maokai"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Maokai_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Baixa <br><br>Maokai é um grande ente enfurecido que luta contra os terrores sobrenaturais da Ilhas das Sombras.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - - SEIVA MÁGICA - O ataque básico de Maokai também concede cura a ele com um Tempo de Recarga moderado. Sempre que ele conjurar uma habilidade ou for atingido por uma habilidade inimiga, o Tempo de Recarga da cura é reduzido.
+        <br>Q - ESMAGAMENTO ESPINHOSO - Maokai empurra inimigos próximos para trás com uma onda de choque, causando Dano Mágico e redução de velocidade.
+        <br>W - AVANÇO RETORCIDO - Maokai se transforma em uma massa de raízes ambulante, ficando inalvejável e avançando até o alvo. Ao chegar, ele enraíza o alvo.
+        <br>E - ATIRAR MUDAS - Maokai arremessa uma muda na área-alvo para ficar de guarda, sendo mais eficiente em arbustos.
+        <br>R - GARRAS DA NATUREZA - Maokai invoca uma parede colossal de espinhos que avança lentamente, causando dano e enraizando inimigos no caminho.
+        </p>`
+    }else if(campeao == "master yi" || campeao == "Master yi" || campeao == "Master" || campeao == "master"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MasterYi_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="mdi:sword-cross" data-inline="false"></span> Assassino  |  Dificuldade: Moderada <br><br>Master Yi treinou seu corpo e afiou sua mente para que pensamento e ação se tornassem quase um só. Embora ele prefira recorrer à violência como último recurso, a leveza e a velocidade de sua espada garantem uma resolução sempre veloz.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - ATAQUE DUPLO - A cada alguns ataques básicos consecutivos, Master Yi ataca duas vezes.
+        <br>Q - ATAQUE ALPHA - Master Yi se teleporta pelo campo de batalha tão rápido que não pode ser visto, causando Dano Físico a várias unidades pelo caminho enquanto fica inalvejável. O Ataque Alpha pode causar Acerto Crítico e Dano Físico adicional contra monstros. Ataques básicos reduzem o Tempo de Recarga de Ataque Alpha.
+        <br>W - MEDITAR - Master Yi rejuvenesce seu corpo com a força da mente, restaurando Vida e recebendo dano reduzido por um curto período. Além disso, ele recebe acúmulos de Ataque Duplo e pausa a duração restante de Estilo Wuju e de Highlander para cada segundo de canalização.
+        <br>E - ESTILO WUJU - Concede Dano Verdadeiro adicional em ataques básicos.
+        <br>R - HIGHLANDER - Master Yi se movimenta com extrema agilidade, aumentando temporariamente sua Velocidade de Ataque e de Movimento, e tornando-se imune a todos os efeitos de redução de velocidade. Abates ou assistências de Campeões estendem a duração de Highlander enquanto a habilidade estiver ativa. Reduz passivamente o Tempo de Recarga das outras habilidades a cada abate ou assistência.        
+        </p>`
+    }else if(campeao == "miss fortune" || campeao == "Miss fortune" || campeao == "Miss Fortune" || campeao == "Miss" || campeao == "miss "){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MissFortune_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Baixa <br><br>Uma capitã de Águas de Sentina famosa por sua aparência e impiedade, Sarah Fortune chama atenção entre os criminosos calejados da cidade portuária.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - BATIDA DO AMOR - Miss Fortune causa Dano Físico adicional sempre que usar um ataque básico em um novo alvo.
+        <br>Q - DOIS POR UM - Miss Fortune dispara contra um inimigo, causando dano a ele e a um alvo atrás dele. Ambos os acertos também podem aplicar Batida do Amor.
+        <br>W - DESFILANDO - Miss Fortune ganha Velocidade de Movimento passivamente quando não está sendo atacada. Esta habilidade pode ser ativada para conceder Velocidade de Ataque adicional por um curto período. Enquanto está em Tempo de Recarga, Batida do Amor reduz o Tempo de Recarga restante de Desfilando.
+        <br>E - CHUVA DE DISPAROS - Miss Fortune revela uma área com uma saraivada de balas, causando ondas de dano e reduzindo a velocidade dos oponentes.
+        <br>R - METENDO BALA - Miss Fortune canaliza uma saraivada de balas em formato de cone à sua frente, causando muito dano aos inimigos. Cada remessa de Metendo Bala pode causar Acerto Crítico.     
+        </p>`
+    }else if(campeao == "mordekaiser" || campeao == "Mordekaiser"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Mordekaiser_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Moderada <br><br>Morto e renascido duas vezes, Mordekaiser é um cruel comandante de uma época perdida. Ele usa a arte da necromancia para aprisionar almas e torná-las submissas pela eternidade.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - - ASCENSÃO DAS TREVAS - Mordekaiser recebe uma poderosa aura de dano e Velocidade de Movimento depois de acertar 3 ataques ou habilidades contra Campeões inimigos.
+        <br>Q - OBLITERAR - Mordekaiser golpeia o chão com sua maça, causando dano a cada inimigo atingido. O dano é aumentado quando atingir um único inimigo.
+        <br>W - INDESTRUTÍVEL - Mordekaiser armazena o dano que ele causa e recebe para criar um escudo. Ele pode consumir o escudo para se curar.
+        <br>E - APERTO MORTAL - Mordekaiser puxa todos os inimigos em uma área.
+        <br>R - REINO DA MORTE - Mordekaiser arrasta sua vítima com ele para uma dimensão diferente e rouba uma porção de seus atributos. Se abater sua vítima, ele mantém os atributos até que ela ressurja.
+        </p>`
+    }else if(campeao == "morgana" || campeao == "Morgana"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Morgana_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Baixa <br><br>Dividida entre sua natureza mortal e celestial, Morgana prendeu suas asas para preservar sua humanidade e inflige sua dor e amargura nos desonestos e corruptos.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - - SIFÃO DA ALMA - Morgana drena o espírito dos seus inimigos, curando-se conforme causa dano a Campeões, tropas grandes e monstros grandes.
+        <br>Q - LIGAÇÃO DAS TREVAS - Morgana prende um inimigo no lugar com magia sombria, forçando-o a sentir a dor que provocou e causando Dano Mágico.
+        <br>W - SOMBRA ATORMENTADA - Morgana conjura uma sombra amaldiçoada em uma área, causando dano aos inimigos que ousarem permanecer em seu círculo sombrio. Eles sofrem Dano Mágico ao longo do tempo, que aumenta quanto mais suas Vidas estiverem baixas.
+        <br>E - ESCUDO NEGRO - Morgana abençoa um aliado com uma barreira protetora de fogo estelar que absorve Dano Mágico e efeitos de desarme até que quebre.
+        <br>R - GRILHÕES DA ALMA -  Morgana libera a força total de seu poder celestial conforme desprende suas asas e flutua acima do chão. Ela lança correntes de dor sombria nos Campeões inimigos próximos, ganhando Velocidade de Movimento em direção a eles. As correntes causam redução de velocidade e um dano inicial e, depois de um intervalo, atordoarão aqueles que não conseguirem quebrá-las.
+        </p>`
+    }else if(campeao == "nami" || campeao == "Nami"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Moderada <br><br>Uma jovem e obstinada vastaya dos mares, Nami é uma das primeiras integrantes da tribo Marai a sair das ondas e se aventurar na terra seca, onde seus antigos acordos com os targonianos foram quebrados.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - MARÉ OSCILANTE - Quando as Habilidades de Nami atingem Campeões aliados, eles recebem Velocidade de Movimento por um curto período.
+        <br>Q - PRISÃO AQUÁTICA - Lança uma bolha na área-alvo, causando dano e atordoando todos os inimigos ao impacto.
+        <br>W - VAZANTE E FLUXO - Desfere um jato de água que salta entre Campeões aliados e inimigos, curando os aliados e causando dano aos inimigos.
+        <br>E - BÊNÇÃO DA CONJURADORA - Fortalece um Campeão aliado por uma curta duração. Os ataques básicos e habilidades do aliado causam Dano Mágico adicional e reduzem a velocidade do alvo.
+        <br>R - MARÉ VIOLENTA - Invoca uma grande Maré Violenta que arremessa ao ar, reduz a velocidade e causa dano aos inimigos atingidos. Aliados atingidos recebem o efeito dobrado de Maré Oscilante.
+        </p>`
+    }else if(campeao == "nasus" || campeao == "Nasus"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nasus_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Moderada <br><br>Nasus é um majestoso Ascendente com cabeça de chacal da antiga Shurima; uma figura heroica considerada semideus pelo povo do deserto.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DEVORADOR DE ALMAS - Nasus drena a energia espiritual de seu inimigo, acumulando Roubo de Vida adicional.
+        <br>Q - ATAQUE SIFÃO - Nasus ataca seu inimigo, causando dano e aumentando o poder do próximo Ataque Sifão se o alvo for abatido.
+        <br>W - MURCHAR - Nasus envelhece um campeão inimigo, reduzindo sua Velocidade de Movimento e de Ataque ao longo do tempo.
+        <br>E - FOGO ESPIRITUAL - Nasus libera uma chama espiritual em um local, causando dano e reduzindo a Armadura dos inimigos que pisarem nela.
+        <br>R - FÚRIA DAS AREIAS - Nasus libera uma poderosa tempestade de areia que atinge inimigos próximos. Enquanto a tempestade estiver ativa, ele recebe Vida e Alcance de Ataque adicionais, causa dano a inimigos próximos, reduz o Tempo de Recarga de Ataque Sifão e recebe Armadura e Resistência Mágica adicionais.      
+        </p>`
+    }else if(campeao == "nautilus" || campeao == "Nautilus"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nautilus_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Moderada <br><br>O golias armadurado conhecido como Nautilus, uma lenda solitária, tão velha quantos as primeiras docas que afundaram em Águas de Sentina, vaga pelas águas escuras da costa das Ilhas da Chama Azul.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - ÂNCORA IMPACTANTE - O primeiro Ataque de Nautilus a um alvo causa Dano Físico aumentado e Enraíza-o brevemente.
+        <br>Q - LANÇAR ÂNCORA - Nautilus arremessa sua âncora à frente. Se acertar um inimigo, ele puxa a si mesmo e ao alvo para perto um do outro, causando Dano Mágico. Se acertar um terreno, Nautilus avança em direção a ele.
+        <br>W - IRA DO TITÃ - Nautilus recebe um Escudo temporário. Enquanto o Escudo persistir, seus Ataques causam dano ao longo do tempo ao alvo e a inimigos próximos.
+        <br>E - CORRENTEZA - Nautilus cria três ondas explosivas ao redor de si. Cada explosão causa dano e Lentidão aos inimigos.
+        <br>R - CARGA DE PROFUNDIDADE - Nautilus lança uma onda de choque na terra que persegue o oponente. Essa onda rasga a terra em cima dela, arremessando os inimigos ao ar. Quando ela alcança o oponente, a onda de choque explode, arremessando o alvo ao ar e atordoando ele.           
+        </p>`
+    }else if(campeao == "neeko" || campeao == "Neeko"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Neeko_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Nativa de uma tribo vastaya há muito esquecida, Neeko consegue se misturar em qualquer multidão, assumindo a aparência dos outros e até mesmo absorvendo parte de seu estado emocional para identificar de imediato quem é amigo ou inimigo.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - ENCANTO INERENTE - Neeko pode se parecer com um Campeão aliado. Sofrer dano de Campeões inimigos ou conjurar habilidades de dano quebram o disfarce.
+        <br>Q - EXPLOSÃO FLORESCENTE - Neeko arremessa uma semente, causando Dano Mágico. A semente floresce novamente ao atingir Campeões ou abater unidades.
+        <br>W - METAMORFA - Neeko passivamente causa Dano Mágico adicional a cada terceiro ataque e pode ativar a habilidade para enviar um clone em uma direção.
+        <br>E - FARPAS EMARANHADAS - Neeko arremessa um emaranhado que causa dano e enraíza tudo o que atravessa. Se o emaranhado abater um inimigo ou atravessar um Campeão, ele aumentará de tamanho, terá mais velocidade e enraizará por mais tempo.
+        <br>R - FLORESCER REPENTINO - Após uma curta preparação, Neeko salta no ar e recebe um escudo. Ao aterrissar, inimigos próximos sofrem dano e atordoamento. A preparação fica oculta se Neeko estiver disfarçada.
+        </p>`
+    }else if(campeao == "nidalee" || campeao == "Nidalee"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="mdi:sword-cross" data-inline="false"></span> Assassino  |  Dificuldade: Alta <br><br>Criada na mais profunda das selvas, Nidalee é uma rastreadora especialista que pode se transformar em um puma à sua vontade.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - ESPREITAR - Mover-se pelos arbustos aumenta a Velocidade de Movimento de Nidalee em 10% por 2 segundos, aumentando para 30% em direção a campeões inimigos visíveis dentre 1400 de alcance. Atingir Campeões ou monstros com Arremessar Lança ou Arapuca aciona uma Caçada, que concede Visão Mágica deles por 4 segundos. Durante esse tempo, Nidalee recebe 10% de Velocidade de Movimento (aumentando para 30% em direção ao alvo Caçado) e o uso de Bote ou Investida contra o alvo é aprimorado.
+        <br>Q - ARREMESSAR LANÇA / BOTE - Na forma humana, Nidalee arremessa uma lança perfurante em seu alvo, que acumula dano enquanto está no ar. Como puma, seu próximo ataque irá tentar ferir o inimigo de maneira letal, causando dano inversamente proporcional à Vida do alvo.
+        <br>W - ARAPUCA / INVESTIDA - Na forma humana, Nidalee posiciona uma armadilha para seus oponentes descuidados que, quando ativada, causa dano e os revela. Em forma de puma, ela salta em uma direção, causando dano na área em que aterrissar.
+        <br>E - ÍMPETO SELVAGEM / PATADA - Na forma humana, Nidalee canaliza o espírito do puma para curar seus aliados e lhes concede Velocidade de Ataque por um curto período de tempo. Em forma de puma, ela golpeia em uma direção, causando dano aos inimigos à sua frente.
+        <br>R - ASPECTO DO PUMA - Nidalee transforma-se em um puma, recebendo novas habilidades.
+        </p>`
+    }else if(campeao == "nocturne" || campeao == "Nocturne"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nocturne_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="mdi:sword-cross" data-inline="false"></span> Assassino  |  Dificuldade: Moderada <br><br>Uma fusão demoníaca provinda dos pesadelos que assombram todas as mentes sencientes, a coisa conhecida como Nocturne se tornou uma força primordial de puro terror.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - LÂMINAS SOMBRIAS - A cada poucos segundos, o próximo ataque de Nocturne atinge os inimigos ao seu redor para causar Dano Físico adicional e curá-lo. Os ataques básicos de Nocturne reduzem esse Tempo de Recarga.
+        <br>Q - PORTADOR DO ANOITECER - Nocturne lança uma lâmina de sombras que causa dano, deixa um Rastro do Crepúsculo e faz com que os Campeões deixem um Rastro do Crepúsculo. Enquanto estiver no rastro, Nocturne ignora colisões com unidades e ganha aumento de Velocidade de Movimento e de Dano de Ataque.
+        <br>W - PROTEÇÃO DAS TREVAS - Nocturne fortalece suas lâminas, ganhando Velocidade de Ataque passivamente. Ativar Proteção das Trevas permite que Nocturne desapareça em meio às sombras, criando uma barreira mágica que bloqueia uma única habilidade inimiga e dobra a Velocidade de Ataque passiva dele caso bem-sucedida.
+        <br>E - HORROR INDESCRITÍVEL - Nocturne coloca um pesadelo na mente de seu alvo, causando dano a cada segundo e aterrorizando-o caso ele não saia de seu alcance enquanto durar a habilidade.
+        <br>R - PARANOIA - Nocturne reduz o raio de visão de todos os Campeões inimigos e ainda remove a visão que eles têm dos aliados. Depois ele pode se arremessar contra um Campeão inimigo que estiver próximo.
+        </p>`
+    }else if(campeao == "nunu" || campeao == "Nunu"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nunu_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Moderada <br><br>Era uma vez um garoto que queria provar a todos que poderia ser um herói indo matar um terrível monstro... mas que no fim descobriu que esse monstro era um solitário yeti mágico que só queria um amigo.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - CHAMADO DE FRELJORD - Nunu aumenta as Velocidades de Ataque e de Movimento de Willump e de um aliado próximo, além de fazer com que os ataques básicos de Willump causem dano a inimigos ao redor do alvo.
+        <br>Q - CONSUMIR - Willump dá uma mordida em uma tropa, monstro ou Campeão inimigo, causando dano e se curando.
+        <br>W - A MAIOR BOLA DE NEVE DE TODAS! - Willump cria uma bola de neve que aumenta em velocidade e tamanho conforme ele a rola. Ela causa dano a inimigos e os arremessa ao ar.
+        <br>E - RAJADA DE BOLAS DE NEVE - Nunu arremessa múltiplas bolas de neve que causam dano a inimigos. Ao terminar, Willump enraíza quaisquer Campeões ou monstros grandes que foram atingidos por uma delas.
+        <br>R - ZERO ABSOLUTO - Nunu e Willump criam uma poderosa nevasca em uma área, causando lentidão aos inimigos e um dano massivo quando se encerrar.
+        </p>`
+    }else if(campeao == "olaf" || campeao == "Olaf"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Olaf_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Baixa <br><br>Uma força desenfreada de destruição, Olaf e seus machados não querem nada além de morrer em um combate glorioso.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - FÚRIA BERSERKER - Olaf recebe Velocidade de Ataque com base na Vida perdida dele.
+        <br>Q - RESSACA - Olaf arremessa um machado no local-alvo, causando dano e Lentidão aos inimigos que atravessar. Se Olaf apanhar o machado, o Tempo de Recarga da habilidade será reduzido em 4,5s.
+        <br>W - GOLPES NEFASTOS - Olaf recebe aumento na Velocidade de Ataque, Roubo de Vida e cura proveniente de todas as origens dependendo de quanta Vida removida tiver.
+        <br>E - BALANÇO TEMERÁRIO - Olaf ataca com tal força que causa Dano Verdadeiro a seu alvo e a si mesmo, recuperando o custo de Vida caso destrua o alvo.
+        <br>R - RAGNAROK - Olaf fica temporariamente imune a desarmes.
+        </p>`
+    }else if(campeao == "oriana" || campeao == "Oriana" || campeao == "orianna" || campeao == "Orianna"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Orianna_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Orianna já foi uma menina curiosa de carne e osso, mas agora é uma maravilha tecnológica composta inteiramente de engrenagens.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DANDO CORDA - Os Ataques de Orianna causam Dano Mágico adicional. O dano aumenta a cada vez que ela Ataca o mesmo alvo.
+        <br>Q - COMANDO: ATACAR - Orianna comanda sua Esfera para avançar no local-alvo, causando Dano Mágico ao longo do caminho (causa menos dano a alvos subsequentes). A Esfera permanece no mesmo lugar após o comando.
+        <br>W - COMANDO: DISSONÂNCIA - Orianna comanda que sua Esfera desfira um pulso de energia, causando Dano Mágico ao seu redor. Isso deixa para trás um campo que aumenta a Velocidade de Movimento de aliados e causa Lentidão aos inimigos.
+        <br>E - COMANDO: PROTEGER - Orianna comanda que sua Esfera se prenda a um Campeão aliado, concedendo a ele um Escudo e causando Dano Mágico a qualquer inimigo que ela atravessar em seu trajeto. Além disso, a Esfera concede Armadura e Resistência Mágica adicionais ao Campeão ao qual estiver presa.
+        <br>R - COMANDO: ONDA DE CHOQUE - Orianna comanda sua Esfera para desferir uma onda de choque, causando Dano Mágico e deslocando inimigos próximos em direção à Esfera após um curto intervalo.
+        </p>`
+    }else if(campeao == "ornn" || campeao == "Ornn"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ornn_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Moderada <br><br>Ornn é o espírito Freljordano da forja e da artesania. Ele trabalha na solidão de uma enorme fornalha, construída a marteladas por entre as cavernas de lava do vulcão Pedra-Lar.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - FORJA VIVA - Ornn recebe Armadura e Resistência Mágica adicionais de todas as origens. Ele pode gastar ouro para forjar itens não consumíveis em qualquer lugar. Além disso, ele pode criar itens magistrais para si mesmo e para seus aliados.
+        <br>Q - RUPTURA VULCÂNICA - Ornn bate no chão, dispersando uma fissura que causa dano e reduz a velocidade dos inimigos atingidos. Após um breve intervalo, um pilar de magma se forma no ponto final.
+        <br>W - FÔLEGO DO FOLE - Ornn avança cuspindo fogo. Inimigos atingidos pelo último sopro de fogo tornam-se Frágeis.
+        <br>E - INVESTIDA CALCINANTE - Ornn se lança em investida, causando dano aos inimigos sobre os quais passar. Se Ornn colidir com o terreno enquanto estiver em investida, o impacto criará uma onda de choque que causará dano e arremessará os inimigos ao ar.
+        <br>R - CHAMADO DO DEUS DA FORJA - Ornn invoca um elemental gigante em um ponto, que viaja até ele cada vez mais rápido. Inimigos atropelados pelo elemental sofrem dano, têm a velocidade reduzida e ficam Frágeis. Ornn pode reconjurar a habilidade para dar uma investida no elemental para redirecioná-lo na direção em que ele o acertar, fazendo com que o elemental arremesse ao ar todos os inimigos que ele atingir, causando o mesmo dano e reaplicando Frágil.
+        </p>`
+    }else if(campeao == "pantheon" || campeao == "Pantheon"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pantheon_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Moderada <br><br>Antes um relutante portador do Aspecto da Guerra, Atreus conseguiu sobreviver quando o poder celestial dentro dele foi morto, recusando-se a sucumbir a um golpe que arrancou estrelas do céu.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DETERMINAÇÃO MORTAL - Após algumas habilidades ou ataques, a próxima habilidade de Pantheon será fortalecida.
+        <br>Q - LANÇA METEÓRICA - Pantheon pode fazer uma investida com sua lança ou arremessá-la na direção escolhida.
+        <br>W - ESCUDO-COMETA - Pantheon avança em um alvo, causando dano e atordoando-o.
+        <br>E - ÉGIDE IMPETUOSA - Pantheon posiciona seu escudo, ficando invulnerável a dano vindo de sua frente e atacando rapidamente com sua lança.
+        <br>R - CONSTELAÇÃO CADENTE - Pantheon se prepara, salta para o ar e aterrissa como um cometa no local escolhido.     
+        </p>`
+    }else if(campeao == "poppy" || campeao == "Poppy"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Poppy_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Moderada <br><br>Runeterra não está em falta de campeões valentes, mas poucos são tão tenazes quanto Poppy
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - EMBAIXADORA DE FERRO - Poppy arremessa seu broquel, que bate no alvo e cai no chão. Ela pode apanhá-lo para receber um escudo temporário.
+        <br>Q - CHOQUE DO MARTELO - Poppy golpeia com o martelo, causando dano e criando uma área que reduz a velocidade de inimigos e explode após um intervalo.
+        <br>W - PRESENÇA INABALÁVEL - Poppy recebe Armadura e Resistência Mágica passivamente, que aumentam quando ela estiver com Vida baixa. Ela pode ativar Presença Inabalável para receber Velocidade de Movimento e impedir avanços inimigos ao seu redor, fazendo com que o inimigo impedido sofra redução de velocidade e fique preso ao chão.
+        <br>E - INVESTIDA HEROICA - Poppy avança até o alvo e o empurra para trás. Se o alvo colidir com uma parede, ele será atordoado.
+        <br>R - VEREDITO DA GUARDIÃ - Poppy canaliza um golpe com o martelo que empurra inimigos para muito longe.
+        </p>`
+    }else if(campeao == "pyke" || campeao == "Pyke"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Moderada <br><br>Um arpoador renomado vindo das Docas da Matança nas Águas de Sentina, Pyke deveria ter encontrado sua morte na barriga de um gigante Peixe-Jaula... mas, ainda assim, ele retornou.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DÁDIVA DOS AFOGADOS - Quando Pyke está escondido dos inimigos, ele regenera o dano recebido recentemente de Campeões. Pyke também não ganha Vida máxima adicional de nenhuma fonte, mas ganha DdA adicional.
+        <br>Q - ESPETO DE OSSO - Pyke esfaqueia um inimigo à sua frente ou puxa um inimigo em direção a si mesmo.
+        <br>W - MERGULHO FANTASMA - Pyke entra em camuflagem e ganha Velocidade de Movimento significativa que decai ao longo do tempo.
+        <br>E - RESSACA ESPECTRAL - Pyke avança e deixa para trás um fantasma, que avança até ele e atordoa os Campeões inimigos pelo caminho.
+        <br>R - MORTE DAS PROFUNDEZAS - Pyke teleporta até inimigos com Vida baixa e os executa, permitindo que ele conjure a habilidade novamente e concedendo ouro adicional ao aliado que der assistência.
+        </p>`
+    }else if(campeao == "qiyana" || campeao == "Qiyana"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="mdi:sword-cross" data-inline="false"></span> Assassino  |  Dificuldade: Alta <br><br>Na cidade-selva de Ixaocan, Qiyana planeja seu próprio e implacável caminho até o trono de Yun Tal.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - PRIVILÉGIO DA REALEZA - O primeiro ataque básico ou habilidade de Qiyana contra cada inimigo causa dano adicional.
+        <br>Q - CÓLERA ELEMENTAL / LÂMINA DE IXTAL - Qiyana brande sua arma, causando dano com um efeito adicional baseado no seu elemento.
+        <br>W - TERRAFORME - Qiyana avança para um local e encanta sua arma com um elemento. Ataques e habilidades causam dano adicional enquanto sua arma estiver encantada.
+        <br>E - AUDÁCIA - Qiyana avança em um inimigo e causa dano.
+        <br>R - SUPREMA DEMONSTRAÇÃO DE TALENTO - Qiyana lança uma onda de choque que detona quaisquer elementos que ela acertar, atordoando e causando dano a inimigos próximos.       
+        </p>`
+    }else if(campeao == "quinn" || campeao == "Quinn"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Quinn_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Moderada <br><br>Quinn é uma cavaleira patrulheira de elite de Demacia que cumpre missões perigosas no coração do território inimigo.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - RAPINA - Valor, a águia demaciana de Quinn, periodicamente marca inimigos como Vulneráveis. O primeiro ataque básico de Quinn contra alvos Vulneráveis causará Dano Físico adicional.
+        <br>Q - INVESTIDA ANUVIANTE - Quinn chama Valor para marcar um inimigo e prejudicar sua visão antes de causar dano a todos os inimigos na área.
+        <br>W - SENTIDOS APURADOS - Passivamente concede Velocidade de Ataque e de Movimento a Quinn após ela atacar um alvo Vulnerável. Ative para fazer com que Valor revele uma grande área próxima.
+        <br>E - SALTO - Quinn avança em direção a um inimigo, causando Dano Físico e reduzindo a Velocidade de Movimento do alvo. Ao alcançar seu alvo, ela salta dele, interrompendo-o brevemente, e aterrissa a uma distância próxima de seu alcance máximo de ataque.
+        <br>R - RETAGUARDA DO INIMIGO - Quinn e Valor se juntam para voar em alta velocidade. Encerrar a habilidade conjura Bombardeio, que causa dano a inimigos próximos e marca Campeões como Vulnerável.
+        </p>`
+    }else if(campeao == "rakan" || campeao == "Rakan"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rakan_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Moderada <br><br>Inconsistente e charmoso, Rakan é um conhecido encrenqueiro vastaya e o melhor dançarino de batalha da história da tribo Lhotlan.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - PLUMAS MÁGICAS - Rakan recebe um escudo periodicamente.
+        <br>Q - PENA RELUZENTE - Lança uma pluma mágica que causa Dano Mágico. Ao atingir um Campeão ou um monstro épico, Rakan pode curar seus aliados.
+        <br>W - ENTRADA TRIUNFAL - Avança para um local e, ao chegar, arremessa os inimigos próximos ao ar.
+        <br>E - DANÇA DA BATALHA - Voa até um aliado e concede um escudo a ele. Pode ser conjurada novamente sem custo por um breve período.
+        <br>R - RAPIDEZ - Recebe Velocidade de Movimento, encantando e causando Dano Mágico ao tocar nos inimigos.     
+        </p>`
+    }else if(campeao == "rammus" || campeao == "Rammus"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rammus_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Moderada <br><br>Idolatrado por muitos, dispensado por alguns e misterioso para todos, Rammus é um ser curioso e enigmático.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - CASCO ESPETADO - Os ataques básicos de Rammus causam Dano Mágico adicional, escalando com sua Armadura.
+        <br>Q - BOLA DO PODER - Rammus acelera em forma de bola na direção de seus inimigos, causando dano e lentidão nos alvos afetados pelo impacto.
+        <br>W - BOLA CURVA DEFENSIVA - Rammus entra em formação de defesa, aumentando drasticamente sua Armadura e Resistência Mágica, amplificando o dano de Casco Espetado e devolvendo o dano a inimigos que causarem ataques básicos a ele. Contudo, sua velocidade também é reduzida neste período.
+        <br>E - PROVOCAÇÃO ENLOUQUECEDORA - Rammus provoca um Campeão inimigo ou monstro para um ataque imprudente contra si mesmo. Além disto, ele recebe Velocidade de Ataque adicional por um curto período, embora este efeito seja estendido ao ter qualquer outra habilidade ativa.
+        <br>R - TREMORES - Rammus cria ondas de destruição que pulsam do chão, causando dano a inimigos próximos e reduzindo a velocidade deles. As torres recebem o dobro de dano dos Tremores.
+        </p>`
+    }else if(campeao == "rek'sai" || campeao == "Rek'sai" || campeao == "Reksai" || campeao == "reksai"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/RekSai_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Baixa <br><br>A predadora perfeita, Rek'Sai é uma criatura do Vazio sem piedade que anda por túneis no subsolo para emboscar e devorar vítimas desavisadas.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - FÚRIA DOS XER'SAI - Rek'Sai gera Fúria ao Atacar e atingir inimigos com habilidades básicas. Enquanto estiver Escavada, ela consome a Fúria para restaurar Vida.
+        <br>Q - IRA DA RAINHA / SONDAR PRESAS - Os próximos 3 ataques básicos de Rek'Sai causam Dano Físico adicional a inimigos próximos. Enquanto está enterrada, Rek'Sai lança uma rajada de terra carregada com o poder do Vazio que causa Dano Físico e revela os inimigos atingidos.
+        <br>W - ESCAVAR / EMERGIR - Rek'Sai se enterra no chão, recebendo novas habilidades e Velocidade de Movimento aumentada. O alcance de sua visão é reduzido e ela não pode usar ataques básicos. Enquanto enterrada, Rek'Sai pode conjurar Emergir para causar dano e arremessar ao ar os inimigos próximos.
+        <br>E - MORDIDA FEROZ / TÚNEL - Rek'Sai morde seu alvo, causando Dano Verdadeiro dobrado se tiver o máximo de Fúria. Enquanto escavada, Rek'Sai cria um Túnel longo, duradouro e reutilizável. Inimigos podem destruí-lo ficando sobre uma das entradas.
+        <br>R - INVESTIDA DO VAZIO - Rek'Sai marca seus alvos passivamente ao causar dano. Ela pode ativar essa habilidade para se tornar brevemente inalvejável e saltar até o alvo marcado, causando dano pesado com base na Vida perdida dele.
+        </p>`
+    }else if(campeao == "rell" || campeao == "Rell"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Baixa <br><br>Produto de um experimento brutal nas mãos da Rosa Negra, Rell é uma arma humana rebelde que está determinada a destruir Noxus.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - A FERRO E FOGO - Rell ataca devagar, mas rouba Armadura e Resistência Mágica do alvo ao contato, causando dano adicional com base no valor roubado.
+        <br>Q - GOLPE ESTILHAÇADOR - Rell estoca com a lança, causando Dano Mágico às unidades em linha reta e destruindo o Escudo delas. A primeira unidade atingida sofre o roubo de defesa de A Ferro e Fogo. Se Rell estiver vinculada a um aliado com Atrair e Repelir, ambos recuperarão Vida para cada Campeão inimigo atingido por essa Habilidade.
+        <br>W - FERROMANTE: QUEDA ESMAGADORA - Passivo: enquanto estiver na montaria, Rell recebe Velocidade de Movimento adicional; já enquanto estiver blindada, ela recebe Armadura e Resistência Mágica adicionais. Ativo: Rell alterna de forma, conjurando uma Habilidade diferente com base na forma. Montaria: Rell veste a armadura e cai sobre os inimigos, Arremessando-os ao ar e recebendo um grande escudo. Blindada: Rell forja a montaria, recebendo um impulso de velocidade e arremessando para trás dela o próximo inimigo que Atacar.
+        <br>E - ATRAIR E REPELIR - Rell vincula um pedaço de sua Armadura a outro Campeão aliado, concedendo a ele Armadura e Resistência Mágica enquanto estiverem próximos. Com um vínculo formado, Rell pode conjurar a Habilidade sem alvejar um Campeão aliado para romper a ligação e Atordoar os inimigos que estiverem em sua extensão.
+        <br>R - TEMPESTADE MAGNÉTICA - Rell explode em uma fúria magnética, Arrastando violentamente os inimigos próximos em sua direção. Ela então Arrasta os inimigos próximos em direção a si por um curto período, causando Dano Mágico ao longo do tempo.
+        </p>`
+    }else if(campeao == "renekton" || campeao == "Renekton"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renekton_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Baixa <br><br>Renekton é um aterrorizante e furioso ser Ascendente dos desertos escaldantes de Shurima. Ele já foi o guerreiro mais estimado de todo o seu império, levando os exércitos da nação a inúmeras vitórias.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DOMÍNIO DA IRA - Os ataques de Renekton geram Fúria, que aumenta quando ele estiver com a Vida baixa. Essa Fúria pode fortalecer suas habilidades com efeitos adicionais.
+        <br>Q - ABATER OS INDEFESOS - Renekton brande sua lâmina, causando Dano Físico moderado em todos os alvos ao seu redor e curando-o em uma pequena quantia do dano causado. Caso tenha mais que 50 pontos de Fúria, seu dano e cura aumentam.
+        <br>W - PREDADOR DESUMANO - Renekton corta seu alvo duas vezes, causado Dano Físico moderado e atordoamento por 0,75s. Se Renekton tiver mais de 50 de Fúria, ele corta o inimigo três vezes, destruindo escudos de dano no alvo, causando Dano Físico alto e atordoando por 1,5s.
+        <br>E - FATIAR E PICAR - Renekton avança, causando dano a unidades em seu caminho. Fortalecido, Renekton causa dano adicional e reduz a Armadura das unidades atingidas.
+        <br>R - DOMINUS - Renekton transforma-se em sua forma Tirana, recebendo Vida adicional e causando dano a inimigos ao seu redor. Enquanto estiver nessa forma, ele recebe Fúria periodicamente. 
+        </p>`
+    }else if(campeao == "rengar" || campeao == "Rengar"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="mdi:sword-cross" data-inline="false"></span> Assassino  |  Dificuldade: Alta <br><br>Rengar é um feroz caçador de troféus vastaya que gosta da emoção proporcionada pela caça e pelo abate de criaturas perigosas.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - PREDADOR OCULTO - Enquanto estiver em um arbusto, Rengar salta em seu alvo ao usar um ataque básico. Saltar sem Ferocidade gera Ferocidade. Ao atingir Ferocidade máxima, sua próxima habilidade é fortalecida. Conjurar uma habilidade fortalecida aumenta a Velocidade de Movimento de Rengar por alguns segundos. Abater Campeões inimigos acrescenta troféus ao Colar de Presas de Rengar, concedendo Dano de Ataque adicional.
+        <br>Q - SELVAGERIA - O próximo ataque de Rengar desfere uma punhalada brutal que causa dano adicional. Efeito de Ferocidade: causa dano aumentado e concede Velocidade de Ataque.
+        <br>W - RUGIDO DE BATALHA - Rengar solta um rugido de batalha, causando dano aos inimigos e curando parte do dano que ele tenha recebido recentemente. Efeito de Ferocidade: quebra efeitos de Controle de Grupo.
+        <br>E - BOLEADEIRAS - Rengar arremessa sua boleadeira, reduzindo a velocidade do primeiro alvo atingido por um curto período. Efeito de Ferocidade: enraíza o alvo.
+        <br>R - FUROR DA CAÇADA - Rengar ativa seus instintos predatórios, ficando Camuflado e revelando o campeão inimigo mais próximo a ele em um amplo raio ao seu redor. Durante o Furor da Caçada, Rengar recebe Velocidade de Movimento e pode saltar no inimigo perseguido para reduzir sua armadura, mesmo sem estar no arbusto.
+        </p>`
+    }else if(campeao == "riven" || campeao == "Riven"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Alta <br><br>Outrora mestra das espadas nos esquadrões de Noxus, agora Riven é uma expatriada em uma terra que um dia já tentou conquistar.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - LÂMINA RÚNICA - As habilidades de Riven carregam sua lâmina, e seus ataques básicos consomem cargas para causar dano adicional.
+        <br>Q - ASAS QUEBRADAS - Riven faz uma série rápida de acertos. Esta habilidade pode ser reativada três vezes em um curto período de tempo. O terceiro golpe empurra para trás os inimigos próximos.
+        <br>W - EXPLOSÃO DE KI - Riven emite uma Explosão de Ki, causando dano e atordoamento a inimigos próximos.
+        <br>E - VALENTIA - Riven avança uma curta distância e bloqueia o dano recebido.
+        <br>R - LÂMINA DO EXÍLIO - Riven fortalece sua arma de recordação com energia, recebendo Dano de Ataque e alcance. Durante este período, ela também pode usar Golpe de Vento, um poderoso ataque à distância, uma vez.      
+        </p>`
+    }else if(campeao == "rumble" || campeao == "Rumble"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rumble_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Alta <br><br>Rumble é um jovem inventor irritadiço. Usando nada além de suas próprias mãos e uma pilha de sucata, o yordle briguento construiu um mecha colossal montado com um arsenal de arpões eletrificados e foguetes incendiários.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - TITÃ DO FERRO-VELHO - Cada habilidade que Rumble conjura lhe concede Aquecimento. Ao chegar em 50% de Aquecimento, ele entra na Zona de Perigo, concedendo efeitos adicionais a todas as suas habilidades. Ao chegar em 100% de Aquecimento, ele começa a Superaquecer, concedendo dano adicional a seus ataques básicos, mas tornando-o incapaz de conjurar habilidades por alguns segundos.
+        <br>Q - COSPE-FOGO - Rumble incinera os inimigos à sua frente, causando Dano Mágico em área de cone por 3 segundos. O dano aumenta enquanto ele estiver na Zona de Perigo.
+        <br>W - ESCUDO DE SUCATA - Rumble puxa um escudo que o protege de dano e lhe concede um rápido aumento de velocidade. Enquanto estiver na Zona de Perigo, a resistência do escudo e a velocidade adicional aumentam.
+        <br>E - ARPÃO ELÉTRICO - Rumble lança um arpão, eletrocutando seu alvo com Dano Mágico e redução de Velocidade de Movimento. Ele pode carregar 2 arpões por vez. O dano e o percentual de redução de velocidade aumentam enquanto estiver na Zona de Perigo.
+        <br>R - O EQUALIZADOR - Rumble dispara um grupo de mísseis, criando uma parede de fogo que causa dano e Lentidão a inimigos.
+        </p>`
+    }else if(campeao == "ryze" || campeao == "Ryze"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Considerado pela grande maioria como o mago mais habilidoso de Runeterra, Ryze é um arquimago ancião e amargo que carrega um enorme peso.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - MAESTRIA ARCANA - As habilidades de Ryze causam dano adicional com base em sua Mana adicional. Ele recebe um percentual de aumento de Mana máxima com base em seu Poder de Habilidade.
+        <br>Q - SOBRECARREGAR - Passivamente, as outras habilidades básicas de Ryze redefinem o Tempo de Recarga de Sobrecarregar e carregam uma runa. Quando Ryze conjura Sobrecarregar com 2 runas carregadas, ele recebe um breve surto de Velocidade de Movimento. Ao conjurar, Ryze arremessa uma carga de energia pura em linha reta, causando dano ao primeiro inimigo atingido. Se o alvo estiver afetado por Fluxo, Sobrecarregar causa dano adicional e rebate para inimigos próximos atingidos por Fluxo.
+        <br>W - PRISÃO DE RUNA - Ryze prende um alvo em uma prisão de runas, causando dano e reduzindo sua Velocidade de Movimento. Se o alvo estiver afetado por Fluxo, ele é enraizado.
+        <br>E - FLUXO DE FEITIÇO - Ryze lança um orbe de puro poder mágico que causa dano a um inimigo e um efeito negativo em todos os inimigos próximos. As habilidades de Ryze têm efeitos adicionais contra a unidade afetada.
+        <br>R - PORTAL DE REINOS - Passivamente, Sobrecarregar causa ainda mais dano contra alvos afetados por Fluxo. Ao conjurar, Ryze cria um portal para um local próximo. Após alguns segundos, aliados próximos ao portal são teleportados ao local alvo.
+        </p>`
+    }else if(campeao == "samira" || campeao == "Samira"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Moderada <br><br>Samira encara a morte nos olhos com confiança inabalável, procurando diversão e adrenalina aonde quer que vá.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - IMPULSO AUDACIOSO - Samira gera um combo conforme Ataca ou conjura habilidades de forma alternada. Seus Ataques corpo a corpo causam Dano Mágico adicional. Os Ataques de Samira contra inimigos sob efeitos Imobilizadores a farão avançar ao Alcance de Ataque dela. Se o inimigo estiver afetado por Arremesso ao ar, ela mantém o Arremesso ao ar por um curto período.
+        <br>Q - TALENTO NATURAL - Samira dispara um projétil ou golpeia com a espada, causando dano. Se a habilidade for conjurada durante Ímpeto Indomável, ela atinge todos os inimigos no caminho.
+        <br>W - VORAGEM AFIADA - Samira gira a espada ao seu redor, causando dano e destruindo projéteis inimigos.
+        <br>E - ÍMPETO INDOMÁVEL - Samira avança e atravessa um inimigo ou aliado, cortando inimigos atravessados e recebendo Velocidade de Ataque. Abater um Campeão inimigo reinicia o Tempo de Recarga da habilidade.
+        <br>R - GATILHO INFERNAL - Samira dispara uma saraivada de tiros, atingindo todos os inimigos ao redor dela.
+        </p>`
+    }else if(campeao == "sejuani" || campeao == "Sejuani"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sejuani_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Moderada <br><br>Sejuani é a mãe de guerra Glacinata brutal e implacável da Garra do Inverno, uma das tribos mais temidas de Freljord.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - FÚRIA DO NORTE - Após ficar fora de combate, Sejuani recebe Armadura Congelada, que concede Armadura, Resistência Mágica e imunidade a reduções de velocidade. Armadura Congelada persiste por um curto período após Sejuani sofrer dano e Sejuani pode causar dano a um inimigo atordoado para estilhaçá-la, causando muito Dano Mágico.
+        <br>Q - ATAQUE DO ÁRTICO - Sejuani avança em investida, lançando os inimigos pelos ares. A investida cessa após acertar um Campeão inimigo.
+        <br>W - IRA DO INVERNO - Sejuani usa a sua maça duas vezes, causando dano e aplicando Congelar.
+        <br>E - CONGELAMENTO PERMANENTE - Sejuani congela e atordoa um Campeão inimigo que tiver o máximo de acúmulos de Congelar.
+        <br>R - PRISÃO GLACIAL - Sejuani arremessa sua boleadeira, congelando e atordoando o primeiro Campeão que acertar, criando uma tempestade de gelo que causa lentidão aos demais inimigos.
+        </p>`
+    }else if(campeao == "senna" || campeao == "Senna"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Moderada <br><br>Amaldiçoada desde a infância a ser perseguida pelo fenômeno sobrenatural da Névoa Negra, Senna se juntou à ordem dos Sentinelas da Luz e lutou bravamente contra seu destino.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - ABSOLVIÇÃO - Quando unidades são abatidas perto de Senna, suas almas são periodicamente aprisionadas na Névoa Negra. Senna pode atacar essas almas para libertá-las, absorvendo a Névoa que as aprisiona na morte. A névoa é o combustível do poder de seu Canhão Relicário, alimentando-o com Dano de Ataque, Alcance de Ataque e Chance de Acerto Crítico. Ataques do Canhão Relicário de Senna demoram mais para disparar, causam dano adicional e concedem a ela brevemente uma parte da Velocidade de Movimento de seu alvo.
+        <br>Q - ESCURIDÃO PERFURANTE - Dos canos gêmeos de seu Canhão Relicário, Senna dispara um raio unificado de luz e sombra através do alvo, curando aliados e causando dano a inimigos.
+        <br>W - ABRAÇO FINAL - Senna dispara uma onda de Névoa Negra. Se atingir um inimigo, ela o aprisiona ferozmente, enraizando o alvo e tudo que estiver ao redor dele após um curto intervalo.
+        <br>E - MALDIÇÃO DA NÉVOA NEGRA - Senna reúne a Névoa que ela armazenou em sua arma e a transforma em uma tempestade ao seu redor, abraçando a escuridão e se tornando um espectro. Os aliados que entram na área são camuflados e também tomam a forma de espectros enquanto a Névoa os envolve. Espectros têm sua Velocidade de Movimento aumentada, são inalvejáveis e escondem suas identidades.
+        <br>R - SOMBRA DA ALVORADA - Senna invoca as pedras relicárias dos Sentinelas caídos, dividindo seu canhão relicário em uma miríade de luz e sombra. Ela, então, dispara um raio global que concede escudo a aliados, enquanto causa dano aos inimigos atingidos no centro.
+        </p>`
+    }else if(campeao == "seraphine" || campeao == "Seraphine"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Baixa <br><br>Nascida em Piltover e filha de zaunitas, Seraphine é capaz de ouvir a alma das pessoas. O mundo canta para ela, e ela canta em resposta.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - PRESENÇA DE PALCO - Cada terceira habilidade básica será conjurada duas vezes por Seraphine. Conjurar habilidades próximas a aliados também concede dano e alcance adicionais a ela no próximo ataque básico.
+        <br>Q - NOTA AGUDA - Seraphine causa dano em uma área.
+        <br>W - SOM ENVOLVENTE - Seraphine concede Escudo e Aceleração aos aliados próximos. Caso ela já esteja protegida por um Escudo, também Curará os aliados próximos.
+        <br>E - RITMO CONTAGIANTE - Seraphine causa dano e debilita o movimento dos inimigos em linha reta.
+        <br>R - BIS - Seraphine causa dano e Encanta os inimigos atingidos, ampliando o alcance a cada Campeão aliado ou inimigo atingido.
+        </p>`
+    }else if(campeao == "sett" || campeao == "Sett"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Baixa <br><br>Líder de parte do próspero submundo do crime em Ionia, Sett deve todo o seu sucesso à guerra contra Noxus.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - OUSADIA DA ARENA - Os ataques básicos de Sett alternam entre socos de direita e esquerda. Socos de direita são levemente mais fortes e rápidos. Como Sett odeia perder, recebe Regeneração de Vida adicional com base na Vida perdida.
+        <br>Q - PANCADARIA - Os próximos dois ataques de Sett causam dano adicional com base na Vida máxima do alvo. Ele também recebe Velocidade de Movimento enquanto se move em direção a Campeões inimigos.
+        <br>W - CASCA-GROSSA - O dano que Sett sofre é armazenado passivamente como Ousadia. Ao conjurar a habilidade, Sett consome toda a Ousadia armazenada em troca de um escudo e desfere um soco em uma área, causando Dano Verdadeiro no centro e Dano Físico nas laterais.
+        <br>E - QUEBRA-CRÂNIO - Sett puxa todos os inimigos de cada lado seu, causando dano e atordoando. Caso haja inimigos somente de um lado, eles sofrem redução de velocidade em vez de atordoamento.
+        <br>R - HORA DO SHOW - Sett carrega um Campeão inimigo pelos ares e o arremessa no chão, causando dano e redução de velocidade a todos os inimigos que estiverem próximos ao local de aterrissagem.
+        </p>`
+    }else if(campeao == "e" || campeao == "E"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/F_0.jpg">`
+        description.innerHTML = `<p>Função: Lutador  |  Dificuldade: Moderada <br><br>
+        <br><br>HABILIDADES<br><br>
+        PASSIVA -
+
         </p>`
     }
 }
