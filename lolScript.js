@@ -1036,12 +1036,495 @@ function champ(){
         <br>E - QUEBRA-CRÂNIO - Sett puxa todos os inimigos de cada lado seu, causando dano e atordoando. Caso haja inimigos somente de um lado, eles sofrem redução de velocidade em vez de atordoamento.
         <br>R - HORA DO SHOW - Sett carrega um Campeão inimigo pelos ares e o arremessa no chão, causando dano e redução de velocidade a todos os inimigos que estiverem próximos ao local de aterrissagem.
         </p>`
-    }else if(campeao == "e" || campeao == "E"){
-        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/F_0.jpg">`
-        description.innerHTML = `<p>Função: Lutador  |  Dificuldade: Moderada <br><br>
+    }else if(campeao == "shaco" || campeao == "Shaco"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shaco_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Assassino  |  Dificuldade: Alta <br><br>Criado anos atrás como um brinquedo para um príncipe solitário, Shaco, a marionete encantada, agora se deleita com assassinatos e desordem.
         <br><br>HABILIDADES<br><br>
-        PASSIVA -
-
+        PASSIVA - - APUNHALAR - Os ataques básicos de Shaco e Veneno de Dois Gumes causam dano adicional ao atingirem o inimigo por trás.
+        <br>Q - ENGANAR - Shaco fica Invisível e se teleporta para o local-alvo. Seu primeiro ataque enquanto está Invisível é fortalecido, causando dano adicional e crítico ao atingir o inimigo por trás.
+        <br>W - CAIXINHA-SURPRESA - Shaco cria uma Caixinha-Surpresa escondida. Quando ativada, ela causará temor e atacará inimigos próximos.
+        <br>E - VENENO DE DOIS GUMES - As facas de Shaco envenenam alvos passivamente ao contato, reduzindo sua Velocidade de Movimento. Ele pode arremessá-las para causar dano e envenenar o alvo. A faca arremessada causa dano adicional se a Vida do alvo estiver abaixo de 30%.
+        <br>R - ALUCINAÇÕES - Shaco cria uma ilusão de si mesmo próxima a ele, que pode atacar inimigos próximos (causa dano reduzido a torres). Ao morrer, ela explode, fazendo surgir três Caixinhas-Surpresa e causando dano a todos os inimigos próximos.       
+        </p>`
+    }else if(campeao == "shen" || campeao == "Shen"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg">`
+        description.innerHTML = `<p>Função: Tanque  |  Dificuldade: Moderada <br><br>Para os guerreiros ionianos sigilosos conhecidos como Kinkou, Shen, o Olho do Crepúsculo, é um líder.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - BARREIRA DE KI - Após conjurar uma habilidade, Shen recebe um escudo. Afetar outros Campeões reduz o Tempo de Recarga desse efeito.
+        <br>Q - ATAQUE CREPÚSCULO - Shen chama sua espada espiritual para atacar com ela, causando dano com base na Vida máxima do alvo. Os ataques são fortalecidos drasticamente caso ela colida com um Campeão inimigo. Todos os Campeões com quem ela colide têm a velocidade reduzida enquanto fogem de Shen.
+        <br>W - REFÚGIO ESPIRITUAL - Ataques que atingiriam Shen ou seus aliados próximos à sua espada espiritual são bloqueados.
+        <br>E - CORRIDA DAS SOMBRAS - Shen avança em uma direção, provocando inimigos em seu trajeto.
+        <br>R - MANTER A UNIÃO - Shen protege o Campeão-alvo aliado do dano recebido e, em seguida, teleporta-se para seu local.
+        </p>`
+    }else if(campeao == "shyvana" || campeao == "Shyvana"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shyvana_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Moderada <br><br>Shyvana é uma criatura com a mágica de um fragmento de runa queimando em seu coração. Apesar de normalmente parecer humanoide, ela pode mudar para sua forma verdadeira de um temível dragão, incinerando seus inimigos com seu sopro de chamas.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - FÚRIA DA MEIO-DRAGÃO - Shyvana causa dano adicional a dragões, além de receber Armadura e Resistência Mágica. Conforme Shyvana e seus aliados abatem mais dragões, ela recebe mais Armadura e Resistência Mágica.
+        <br>Q - MORDIDA DUPLA - Shyvana golpeia duas vezes no seu próximo ataque. Ataques básicos reduzem o Tempo de Recarga de Mordida Dupla em 0,5 segundo. Forma de Dragão: Mordida Dupla fere todas as unidades à frente de Shyvana.
+        <br>W - COMBUSTÃO - Shyvana rodeia-se com fogo, causando Dano Mágico por segundo a inimigos próximos e movimentando-se mais rápido por 3 segundos; parte deste dano é aplicada novamente quando os ataques básicos de Shyvana acertam um inimigo com o efeito de Combustão ativo. A Velocidade de Movimento é reduzida ao longo da duração da habilidade. Ataques básicos prolongam a duração de Combustão. Forma de Dragão: Combustão cresce em tamanho.
+        <br>E - HÁLITO FLAMEJANTE - Shyvana desfere uma bola de fogo que causa dano a todos os inimigos que atingir e deixa os alvos em brasa, marcando-os por 5 segundos. Os ataques básicos de Shyvana em alvos marcados causam um percentual de sua Vida máxima como dano ao contato. Forma de Dragão: Hálito Flamejante explode ao impacto ou no local alvo, causando dano adicional e abrasando a terra por um curto período de tempo.
+        <br>R - DESCIDA DO DRAGÃO - Shyvana se transforma em dragão e voa em direção ao local alvo. Inimigos em seu caminho recebem dano e são lançados na direção de seu local alvo. Shyvana passivamente recebe Fúria por segundo e recebe 2 de Fúria em ataques básicos.
+        </p>`
+    }else if(campeao == "singed" || campeao == "Singed"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Singed_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Moderada <br><br>Singed é um alquimista zaunita de intelecto inigualável, que devotou sua vida a ultrapassar os limites do conhecimento; e nenhum preço, nem sua própria sanidade, é alto demais.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - CORRENTE DE AR NOCIVA - Ao passar por Campeões próximos, Singed ganha Velocidade de Movimento.
+        <br>Q - RASTRO DE VENENO - Deixa um rastro de veneno atrás de Singed, causando dano aos inimigos que passam por este caminho.
+        <br>W - MEGA ADESIVO - Joga um frasco de Mega Adesivo no chão, reduzindo a velocidade e prendendo os inimigos que pisam nele.
+        <br>E - LANÇAR - Causa dano ao inimigo alvo e o arremessa pelo ar para trás de Singed. Se o alvo que Singed arremessar aterrissar em seu Mega Adesivo, ele ficará enraizado.
+        <br>R - POÇÃO DA INSANIDADE - Singed bebe uma potente mistura de produtos químicos, que dá a ele um aumento nos atributos de combate.      
+        </p>`
+    }else if(campeao == "sion" || campeao == "Sion"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sion_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Moderada <br><br>Um herói de guerra de uma era passada, Sion era reverenciado em Noxus por ter estrangulado a vida de um rei demaciano com suas próprias mãos.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - IN GLORIA MORI - Após ser abatido, Sion será reanimado temporariamente, mas sua Vida decairá rapidamente. Seus ataques ficarão muito rápidos, curando e causando dano adicional com base na Vida máxima do alvo.
+        <br>Q - GOLPE DEMOLIDOR - Sion carrega um poderoso golpe em uma área à sua frente que causará dano a inimigos quando lançado. Caso carregue por tempo suficiente, também arremessará ao ar e atordoará os inimigos atingidos.
+        <br>W - FORNALHA DA ALMA - Sion se protege e pode reativar após 3 segundos para causar Dano Mágico a inimigos próximos. Quando Sion abate inimigos, ele recebe Vida máxima passivamente.
+        <br>E - URRO DO ASSASSINO - Sion dispara uma onda de choque de curto alcance que causa dano e reduz a velocidade e Armadura do primeiro inimigo atingido. Se ela atingir uma tropa ou monstro, o mesmo será arremessado para trás, causando dano e reduzindo a velocidade e Armadura de todos os inimigos que atravessar.
+        <br>R - INVESTIDA INCONTROLÁVEL - Sion avança em linha reta, acelerando ao longo do tempo. Ele pode guiar levemente sua investida com o cursor do mouse na posição. Ao colidir com um inimigo, ele causa dano e o arremessa ao ar com base na distância percorrida.
+        </p>`
+    }else if(campeao == "sivir" || campeao == "Sivir"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sivir_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Moderada <br><br>Sivir é uma renomada caçadora de recompensas e capitã mercenária que manipula o comércio nos desertos de Shurima.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - PÉS LIGEIROS - Sivir ganha um pequeno impulso de Velocidade de Movimento quando ela ataca um campeão inimigo.
+        <br>Q - LÂMINA BUMERANGUE - Sivir arremessa sua lâmina como um bumerangue, causando dano tanto na ida quanto na volta.
+        <br>W - RICOCHETE - Os próximos ataques de Sivir ricochetearão em outros alvos além do primeiro, causando dano reduzido a alvos secundários.
+        <br>E - ESCUDO DE FEITIÇO - Cria uma barreira mágica que bloqueia a habilidade de um único inimigo lançada em Sivir. Ela recupera a Mana gasta se o feitiço for bloqueado.
+        <br>R - NA CAÇADA - Sivir conduz seus aliados até a batalha, concedendo a eles aumento de Velocidade de Movimento por um período de tempo. Além disso, a habilidade concede Velocidade de Ataque adicional passivamente a Sivir enquanto Ricochete estiver ativo.
+        </p>`
+    }else if(campeao == "skarner" || campeao == "Skarner"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Skarner_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Moderada <br><br>Skarner é um imenso escorpião cristalino de um vale escondido de Shurima.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - ESPIRAIS CRISTALINAS - A presença de Skarner faz com que cristais apareçam em locais específicos do mapa, podendo ser capturados por qualquer equipe que ficar sobre eles. Skarner recebe Velocidade de Movimento, Velocidade de Ataque e Regeneração de Mana aumentada quando estiver próximo a cristais capturados por sua equipe.
+        <br>Q - CORTE DE CRISTAL - Skarner ataca com suas garras, causando Dano Físico a todos os inimigos próximos e se carregando com Energia do Cristal por vários segundos caso uma unidade seja atingida. Se ele lançar Corte de Cristal novamente enquanto estiver fortalecido pela Energia do Cristal, causará Dano Mágico adicional.
+        <br>W - EXOESQUELETO CRISTALINO - Skarner recebe um escudo e, enquanto este persiste, sua Velocidade de Movimento aumenta.
+        <br>E - FRATURA - Skarner invoca uma explosão de energia cristalina que causa dano e lentidão aos inimigos atingidos. Ataques básicos nestes inimigos dentre um curto período de tempo os atordoará.
+        <br>R - EMPALAR - Skarner suprime um campeão inimigo e causa dano a ele. Durante este período, Skarner pode mover-se livremente e arrastará sua vítima indefesa com ele. Quando o efeito acabar, o alvo receberá dano adicional.
+        </p>`
+    }else if(campeao == "sona" || campeao == "Sona"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sona_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Moderada <br><br>Sona é um dos maiores prodígios em etwahl de cordas em Demacia, falando somente através de seus acordes graciosos e de suas árias vibrantes.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - POWER CHORD - Depois de conjurar 3 habilidades, o próximo ataque básico de Sona causará Dano Mágico adicional e um efeito extra com base na última música ativada.
+        <br>Q - HINO DO VALOR - Sona toca o Hino do Valor, conjurando rajadas de som, causando Dano Mágico a dois inimigos próximos, priorizando Campeões e monstros. Sona recebe uma aura temporária que concede dano adicional no próximo ataque de aliados próximos contra inimigos.
+        <br>W - ÁRIA DA PERSEVERANÇA - Sona toca a Ária da Perseverança, conjurando melodias protetoras, curando a si mesma e a um aliado ferido próximo. Sona recebe uma aura temporária que concede um escudo momentâneo a aliados marcados pela área.
+        <br>E - CANÇÃO DA CELERIDADE - Sona toca a Canção da Celeridade, concedendo Velocidade de Movimento adicional a aliados próximos. Sona recebe uma aura temporária que concede Velocidade de Movimento adicional a Campeões aliados marcados pela área.
+        <br>R - CRESCENDO - Sona toca o seu melhor acorde, causando Dano Mágico, atordoando Campeões inimigos e forçando-os a dançar. Cada nível dessa habilidade reduz o Tempo de Recarga base das habilidades básicas de Sona.
+        </p>`
+    }else if(campeao == "soraka" || campeao == "Soraka"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Baixa <br><br>Uma andarilha vinda de dimensões celestiais além do Monte Targon, Soraka desistiu de sua imortalidade para proteger as raças mortais de seus instintos mais violentos.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - SALVAÇÃO - Soraka corre mais rapidamente em direção a aliados com pouca Vida.
+        <br>Q - CHAMADO ESTELAR - Uma estrela cai do céu no local-alvo, causando Dano Mágico e reduzindo a velocidade de inimigos. Se um Campeão inimigo for atingido por Chamado Estelar, Soraka regenera Vida.
+        <br>W - INFUSÃO ASTRAL - Soraka sacrifica parte de sua própria Vida para curar outro Campeão aliado.
+        <br>E - EQUINÓCIO - Cria uma área em um local, silenciando todos os inimigos dentro dela. Quando a área expira, os que ainda estiverem dentro são enraizados.
+        <br>R - DESEJO - Soraka enche seus aliados de esperança, instantaneamente restaurando Vida para si mesma e Campeões aliados.
+        </p>`
+    }else if(campeao == "swain" || campeao == "Swain"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Swain_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Alta <br><br>Jericho Swain é o líder visionário de Noxus, uma nação expansionista que venera apenas a força. Apesar de ter sido abatido e mutilado nas guerras ionianas, onde perdeu o braço esquerdo.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - BANDO VORAZ - Os corvos de Swain coletam Fragmentos de Alma que o curam e aumentam permanentemente a Vida máxima dele. Swain pode clicar com o botão direito em um Campeão inimigo imobilizado para puxá-lo para perto, causando dano e arrancando um Fragmento de Alma.
+        <br>Q - MÃO DA MORTE - Swain dispara vários raios de poder sombrio que perfuram os inimigos. Inimigos atingidos sofrem mais dano para cada raio que os atingir.
+        <br>W - VISÃO DO IMPÉRIO - Swain abre um olho demoníaco que causa dano e reduz a velocidade dos inimigos. Campeões atingidos são revelados e concedem um Fragmento de Alma a Swain.
+        <br>E - NUNCAMOVA - Swain lança uma onda de poder demoníaco para a frente, que então retorna para ele e enraiza os inimigos que atinge.
+        <br>R - ASCENSÃO DEMONÍACA - Swain se transforma em demônio e drena Vida de Campeões, tropas e monstros neutros próximos. Ele pode conjurar Chama Demoníaca para dizimar inimigos próximos com uma explosão de fogo espiritual, causando dano equivalente à quantidade de Vida drenada por ele e encerrando sua transformação.
+        </p>`
+    }else if(campeao == "sylas" || campeao == "Sylas"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sylas_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Criado em um dos bairros mais pobres de Demacia, Sylas de Dregbourne se tornou o símbolo do lado mais sombrio da Grande Cidade.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - EXPLOSÃO DE PETRICITA - Após conjurar uma habilidade, Sylas armazena uma carga de Explosão de Petricita. Seus ataques básicos gastam uma carga e agitam as correntes energizadas ao redor dele, causando Dano Mágico adicional a inimigos atingidos. Enquanto Sylas tiver uma carga de Explosão de Petricita, ele recebe Velocidade de Ataque.
+        <br>Q - CORRENTES-CHICOTE - Sylas chicoteia com suas correntes, que se intersectam no local-alvo, causando dano e reduzindo a velocidade dos inimigos. Após um intervalo, há uma explosão de energia mágica no ponto da intersecção, causando dano.
+        <br>W - REGICIDA - Sylas avança em um inimigo com uma força mágica, causando dano com base em execução e curando a si mesmo contra Campeões inimigos.
+        <br>E - EVASÃO / ABDUÇÃO - Sylas avança por uma curta distância, podendo reconjurar a habilidade para arremessar suas correntes e se arrastar na direção do inimigo atingido.
+        <br>R - USURPAR - Sylas rouba a habilidade ultimate do inimigo e pode conjurá-la sem custo.
+        </p>`
+    }else if(campeao == "Syndra" || campeao == "syndra"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Syndra_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Alta <br><br>Syndra é uma temida maga ioniana com um poder incrível ao seu dispor. Quando criança, ela causava pavor nos anciões da aldeia com sua magia imprudente e indomada.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - TRANSCENDER - As habilidades de Syndra recebem efeitos adicionais no nível máximo. Esfera Negra: dano adicional contra Campeões. Determinação: Dano Verdadeiro adicional. Dispersar os Fracos: largura aumentada. Poder Irrestrito: alcance aumentado.
+        <br>Q - ESFERA NEGRA - Syndra conjura uma Esfera Negra, causando Dano Mágico. A esfera permanece em seu lugar e pode ser manipulada por seus outros poderes.
+        <br>W - DETERMINAÇÃO - Syndra apanha e arremessa uma Esfera Negra ou tropa inimiga, causando Dano Mágico e reduzindo a Velocidade de Movimento de inimigos.
+        <br>E - DISPERSAR OS FRACOS - Syndra afasta inimigos e Esferas Negras, causando Dano Mágico. Inimigos atingidos pelas Esferas Negras ficam atordoados.
+        <br>R - PODER IRRESTRITO - Syndra bombardeia um Campeão inimigo com todas as suas Esferas Negras.
+        </p>`
+    }else if(campeao == "tahm" || campeao == "Tahm"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/TahmKench_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Moderada <br><br>Conhecido por muitos nomes ao longo da história, Tahm Kench viaja pelas águas de Runeterra, preenchendo seu insaciável apetite com o pesar dos outros.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - UM GOSTO ADQUIRIDO - Tahm Kench usa o corpo imenso dele para impulsionar seus ataques e habilidades, causando dano adicional com base na Vida total dele. Causar dano a Campeões inimigos aumenta os acúmulos de Um Gosto Adquirido. Com três acúmulos, ele pode usar Devorar em um Campeão inimigo.
+        <br>Q - LÍNGUA-CHICOTE - Tahm Kench ataca com a língua, causando dano e lentidão à primeira unidade atingida. Esta habilidade pode atordoar com três acúmulos de Um Gosto Adquirido.
+        <br>W - DEVORAR - Tahm Kench devora um alvo, causando um percentual de sua Vida máxima como Dano Mágico. Ele pode cuspir tropas e monstros devorados como um disparo de precisão que causa Dano Mágico na área de impacto.
+        <br>E - PELE GROSSA - Tahm Kench transforma o dano recebido em Vida cinza. Conforme ela se esvai, Tahm Kench é curado com um percentual da Vida cinza acumulada. Quando ativada, esta habilidade transforma toda a Vida cinza em um escudo.
+        <br>R - VIAGEM ABISSAL - Tahm Kench teleporta-se pelo mapa, e pode trazer consigo um Campeão aliado.
+        </p>`
+    }else if(campeao == "taliyah" || campeao == "Taliyah"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taliyah_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Taliyah é uma maga nômade de Shurima, dividida entre sua empolgação juvenil e suas grandes responsabilidades
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DESLIZAR EM PEDRAS - Taliyah recebe Velocidade de Movimento próxima a paredes.
+        <br>Q - VOLEIO ENTRELAÇADO - Taliyah arremessa uma rajada de projéteis na direção-alvo, movimentando-se livremente durante o arremesso. Isso manipula o terreno sob ela. Se Taliyah conjurar Voleio Entrelaçado em terreno manipulado, ela arremessa somente um projétil.
+        <br>W - EMPURRÃO SÍSMICO - Taliyah faz com que uma área do terreno irrompa e arremesse inimigos na direção de sua escolha.
+        <br>E - TERRA DESFIADA - Taliyah cria um campo minado de redução de velocidade que explode caso inimigos o atravessem rapidamente ou sejam empurrados/puxados através dele.
+        <br>R - MURO DA TECELÃ - Taliyah cria uma parede comprida e desliza sobre ela.     
+        </p>`
+    }else if(campeao == "talon" || campeao == "Talon"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Assassino  |  Dificuldade: Moderada <br><br>Talon é a adaga na escuridão, um assassino impiedoso capaz de atacar sem aviso e escapar antes que qualquer alarme soe.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - LIMIAR DA LÂMINA - As habilidades de Talon causam Ferimentos em Campeões e monstros grandes, acumulando até 3 vezes. Quando Talon ataca um Campeão com 3 acúmulos de Ferimento, o alvo sofre intenso dano de sangramento ao longo do tempo.
+        <br>Q - DIPLOMACIA NOXIANA - Talon apunhala a unidade alvo. Caso eles estejam próximos o suficiente para um ataque corpo a corpo, o ataque causa dano crítico. Caso estejam fora do alcance corpo a corpo, Talon saltará no alvo e o apunhalará. Talon recupera um pouco da vida e do Tempo de Recarga caso sua habilidade abata o alvo.
+        <br>W - ANCINHO - Talon envia um voleio de adagas que retorna a ele, causando Dano Físico a cada vez que passar por um inimigo. As lâminas que retornarem causam dano adicional e reduzem a velocidade da unidade.
+        <br>E - CAMINHO DO ASSASSINO - Talon salta sobre quaisquer terrenos ou estruturas, até uma distância máxima. Esta habilidade possui um Tempo de Recarga baixo, mas deixa o terreno inutilizável por um longo período de tempo.
+        <br>R - ATAQUE DAS SOMBRAS - Talon dispara um anel de lâminas e fica Invisível ao mesmo tempo em que recebe Velocidade de Movimento adicional. Quando Talon surge da Invisibilidade, as lâminas convergem em sua direção. A cada vez que a lâmina se move, Ataque das Sombras causa Dano Físico aos inimigos atingidos por ao menos uma lâmina.
+        </p>`
+    }else if(campeao == "taric" || campeao == "Taric"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taric_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Baixa <br><br>Taric é o Aspecto do Protetor, portando um incrível poder como o guardião da vida, do amor e da beleza de Runeterra.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - BRAVATA - Conjurações fortalecem os próximos 2 ataques básicos de Taric, causando Dano Mágico adicional, reduzindo Tempos de Recarga e atacando em rápida sucessão.
+        <br>Q - FULGOR ESTELAR - Cura Campeões aliados próximos com base nas cargas armazenadas. Ataques fortalecidos por Bravata concedem uma carga de Fulgor Estelar.
+        <br>W - BASTIÃO - Aumenta passivamente a Armadura de Taric e de qualquer Campeão aliado com Bastião. Protege ativamente um aliado e lhe concede Bastião por todo o tempo que permanecer próximo a Taric. As habilidades de Taric também são conjuradas a partir do aliado com Bastião.
+        <br>E - DESLUMBRAR - Taric prepara um feixe de luz estelar que, após um breve intervalo, causa Dano Mágico e atordoa inimigos.
+        <br>R - RESPLENDOR CÓSMICO - Faz pulsar energia cósmica em Campeões aliados próximos após um intervalo, tornando-os invulneráveis por um curto período.
+        </p>`
+    }else if(campeao == "teemo" || campeao == "Teemo"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Moderada <br><br>Indiferente até aos obstáculos mais perigosos e ameaçadores, Teemo vasculha o mundo com infinito entusiasmo e animação.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - TÉCNICAS DE GUERRILHA - Se Teemo permanecer imóvel e não realizar qualquer ação por um curto período de tempo, ele fica Invisível por tempo indefinido. Caso esteja em um arbusto, Teemo pode manter sua Invisibilidade enquanto se move. Ao quebrar a Invisibilidade, Teemo ativa o Elemento Surpresa, aumentando a própria Velocidade de Ataque por 3 segundos.
+        <br>Q - DARDO OFUSCANTE - Obscurece a visão de um inimigo com um poderoso veneno, causando dano à unidade-alvo e cegando-a pela duração do efeito.
+        <br>W - MOVER DEPRESSA - Teemo corre por aí, aumentando passivamente sua Velocidade de Movimento até que seja atingido por um Campeão ou torre inimiga. Ele pode sair em disparada para receber Velocidade de Movimento que não é interrompida ao ser atingido por um certo período de tempo.
+        <br>E - TIRO TÓXICO - Cada um dos ataques de Teemo envenenará o alvo, causando dano no impacto e a cada segundo seguinte por 4 segundos.
+        <br>R - ARMADILHA VENENOSA - Teemo arremessa uma armadilha venenosa explosiva usando um dos cogumelos que guardou na mochila. Se um inimigo pisar na armadilha, ela soltará uma nuvem venenosa que causa dano e reduz a velocidade de inimigos ao longo do tempo. Se Teemo arremessar um cogumelo em cima de outro, ele saltará, recebendo alcance adicional.
+        </p>`
+    }else if(campeao == "tresh" || campeao == "Tresh"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tresh_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Moderada <br><br>Sádico e astuto, Thresh é um espírito ambicioso e incansável das Ilhas das Sombras. Ele já foi guardião de incontáveis segredos arcanos, mas acabou sucumbindo a poderes maiores do que a vida e a morte.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - CONDENAÇÃO - Thresh pode colher a alma de inimigos que morrerem perto dele, recebendo Armadura e Poder de Habilidade permanentemente.
+        <br>Q - SENTENÇA - Thresh prende um inimigo em suas correntes e puxa em sua direção. Ativar essa habilidade uma segunda vez puxa Thresh em direção ao inimigo.
+        <br>W - PASSAGEM SOMBRIA - Thresh arremessa uma lanterna que protege Campeões aliados próximos contra danos. Aliados podem clicar na lanterna para avançar na direção de Thresh.
+        <br>E - ESFOLAR - Os ataques de Thresh são fortalecidos, causando mais dano quanto mais tempo ele esperar entre ataques. Ao ativar, Thresh arrasta sua corrente e empurra todos os inimigos atingidos na direção do golpe.
+        <br>R - A CAIXA - Uma prisão de paredes que causam dano e Lentidão se quebradas.
+        </p>`
+    }else if(campeao == "tristana" || campeao == "Tristana"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tristana_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Moderada <br><br>Apesar de muitos outros yordles focarem sua energia em descobertas, invenções ou simplesmente travessuras, Tristana sempre se inspirou nas aventuras de grandes guerreiros.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - TIRO CERTEIRO - Aumenta o Alcance de Ataque de Tristana conforme ela sobe de nível.
+        <br>Q - TIRO RÁPIDO - Tristana dispara rapidamente com seu canhão, aumentando sua Velocidade de Ataque por um curto período de tempo.
+        <br>W - SALTO-FOGUETE - Tristana dispara no chão para lançar-se ao local-alvo, causando dano e reduzindo a Velocidade de Movimento das unidades ao seu redor por um breve momento ao aterrissar.
+        <br>E - CARGA EXPLOSIVA - Quando Tristana abate uma unidade, seus projéteis explodem com estilhaços, causando dano a inimigos próximos. Isso pode ser ativado para posicionar uma bomba em um alvo inimigo, que explodirá após uma curta duração, causando dano a unidades ao seu redor.
+        <br>R - TIRO DESTRUIDOR - Tristana carrega uma gigantesca bala de canhão em sua arma e a dispara em uma unidade inimiga. Isso causa Dano Mágico e empurra o alvo para trás. Se o alvo estiver carregando uma bomba da Carga Explosiva, o raio de explosão da bomba é dobrado.
+        </p>`
+    }else if(campeao == "trundle" || campeao == "Trundle"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Trundle_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Moderada <br><br>Trundle é um troll gigantesco e traiçoeiro com uma tendência particularmente perversa, e não há nada que ele não possa submeter a cacetadas, nem mesmo a própria Freljord.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - TRIBUTO DO REI - Quando uma unidade inimiga morre perto de Trundle, ele é curado em um percentual da Vida máxima desta unidade.
+        <br>Q - MORDIDA - Trundle morde seu oponente, causando dano, brevemente reduzindo sua Velocidade de Movimento e drenando parte de seu Dano de Ataque.
+        <br>W - DOMÍNIO CONGELADO - Trundle transforma o local-alvo em seu domínio, recebendo Velocidade de Ataque, Velocidade de Movimento e cura aprimorada de todas as fontes enquanto estiver sobre a região.
+        <br>E - PILAR DE GELO - Trundle cria um pilar de gelo no local-alvo, tornando-o um terreno intransponível e causando Lentidão a todas as unidades inimigas próximas.
+        <br>R - SUBJUGAR - Trundle imediatamente rouba um percentual da Vida, Armadura e Resistência Mágica de seu alvo. Ao longo dos próximos 4 segundos, a quantia de Vida, Armadura e Resistência Mágica roubada é dobrada.
+        </p>`
+    }else if(campeao == "tryndamere" || campeao == "Tryndamere"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tryndamere_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Moderada <br><br>Carregado por fúria e raiva desenfreadas, Tryndamere galgou seu caminho através de Freljord, desafiando abertamente os maiores guerreiros do norte em preparo para os dias sombrios que virão.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - FÚRIA DA BATALHA - Tryndamere recebe Fúria para cada ataque, acerto crítico e golpe fatal que realiza. A Fúria passivamente aumenta a sua Chance de Acerto Crítico e pode ser consumida com a habilidade Sanguinário.
+        <br>Q - SANGUINÁRIO - Tryndamere prospera com o calor do combate, aumentando seu próprio Dano de Ataque conforme for ficando mais e mais ferido. Ele pode conjurar Sanguinário para consumir sua Fúria e curar a si mesmo.
+        <br>W - GRITO ZOMBADOR - Tryndamere solta um grito insultante, diminuindo o Dano de Ataque dos Campeões próximos. Inimigos que estiverem de costas para Tryndamere também têm sua Velocidade de Movimento reduzida.
+        <br>E - CORTE GIRATÓRIO - Tryndamere avança em direção a uma unidade-alvo, causando dano aos inimigos em seu trajeto.
+        <br>R - FÚRIA SEM FIM - O desejo de Tryndamere pela batalha se torna tão forte que ele fica incapaz de morrer, não importa o quão ferido ele esteja.
+        </p>`
+    }else if(campeao == "twisted" || campeao == "Twisted"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/TwistedFate_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Alta <br><br>Twisted Fate é um infame trapaceiro que apostou e encantou tudo em seu caminho por boa parte do mundo, conquistando a inimizade e admiração tanto de ricos quanto tolos.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DADOS VICIADOS - Ao abater uma unidade, Twisted Fate rola seu dado da ''sorte'' e recebe de 1 a 6 de ouro adicional.
+        <br>Q - CURINGAS - Twisted Fate arremessa três cartas, causando dano a cada inimigo que elas atravessam.
+        <br>W - ESCOLHA UMA CARTA - Twisted Fate escolhe uma carta mágica de seu baralho e a usa em seu próximo ataque, causando efeitos adicionais.
+        <br>E - BARALHO MARCADO - A cada 4 ataques, Twisted Fate causa dano adicional. Além disso, sua Velocidade de Ataque aumenta.
+        <br>R - DESTINO - Twisted Fate prevê o futuro de seus adversários, revelando todos os Campeões inimigos e habilitando o uso de Portal, que o teleporta para qualquer local-alvo em 1,5s.      
+        </p>`
+    }else if(campeao == "twitch" || campeao == "Twitch"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Twitch_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Moderada <br><br>Um rato zaunita empesteado de nascença e um apreciador da imundície por paixão, Twitch não tem medo de sujar as patas.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - VENENO MORTAL - Os ataques básicos de Twitch infectam o alvo, causando Dano Verdadeiro a cada segundo.
+        <br>Q - EMBOSCADA - Twitch fica Camuflado por um curto período e recebe Velocidade de Movimento. Ao sair da Camuflagem, Twitch recebe Velocidade de Ataque por um curto período. Quando um Campeão inimigo com Veneno Mortal é abatido, o Tempo de Recarga de Emboscada é reiniciado.
+        <br>W - TONEL DE VENENO - Twitch joga um tonel de veneno que explode em uma área, causando Lentidão e veneno mortal aos alvos.
+        <br>E - CONTAMINAR - Twitch causa ainda mais destruição em inimigos envenenados com uma explosão de suas pestes.
+        <br>R - PASSANDO FOGO - Twitch desfere o poder total de sua besta, fazendo disparos de longuíssimo alcance que perfuram todos os inimigos pegos em seu trajeto.    
+        </p>`
+    }else if(campeao == "udyr" || campeao == "Udyr" || campeao == "ugauga"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Udyr_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Moderada <br><br>Udyr é mais do que um homem; ele é um recipiente para o poder indomado de quatro espíritos animais primitivos. Ao incorporar a natureza bestial dos espíritos.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - AGILIDADE DO MACACO - Udyr recebe Velocidade de Movimento e Velocidade de Ataque cumulativas após conjurar uma Habilidade. Ele tem quatro Habilidades básicas que podem ser usadas para alternar entre as Posturas. Alterar a Postura encerra imediatamente o efeito passivo e o efeito ao contato da Postura anterior.
+        <br>Q - POSTURA DO TIGRE - Postura do Tigre: Ativação - A Velocidade de Ataque de Udyr aumenta por alguns segundos. Efeito persistente - O primeiro ataque e cada terceiro ataque seguinte de Udyr causam dano adicional ao longo de 2 segundos.
+        <br>W - POSTURA DA TARTARUGA - Postura da Tartaruga: Ativação - Udyr recebe um escudo temporário que absorve dano. Efeito persistente - O primeiro ataque e cada terceiro ataque subsequente de Udyr o curam com 2,5% de sua Vida máxima.
+        <br>E - POSTURA DO URSO - Postura do Urso: Ativação - Udyr aumenta sua Velocidade de Movimento por uma curta duração. Efeito persistente - Os ataques básicos de Udyr atordoam seu alvo por 1 segundo. Este efeito não pode ocorrer novamente no mesmo alvo por muitos segundos.
+        <br>R - POSTURA DA FÊNIX - Postura da Fênix: Ativação - Udyr desfere ondas pulsantes de fogo, causando dano a inimigos próximos. Efeito persistente - O primeiro ataque básico e a cada três ataques conseguintes de Udyr cobrem inimigos à sua frente com chamas.
+        </p>`
+    }else if(campeao == "urgot" || campeao == "Urgot"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Urgot_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade:Alta <br><br>Na época em que era um poderoso carrasco noxiano, Urgot foi traído pelo império para o qual havia tirado tantas vidas.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - CHAMAS ECOANTES - Os ataques básicos de Urgot e Expurgar disparam periodicamente explosões de chamas de suas pernas, causando Dano Físico.
+        <br>Q - CARGA CORROSIVA - Detona uma carga explosiva no local-alvo, causando Dano Físico e reduzindo a velocidade dos inimigos atingidos pela explosão.
+        <br>W - EXPURGAR - Urgot reduz sua velocidade enquanto descarrega sua arma contra inimigos próximos. Prioriza Campeões inimigos que tenha atingido recentemente com outras habilidades e aciona Chamas Ecoantes.
+        <br>E - DESDÉM - Urgot avança em uma direção, protegendo-se com um escudo e pisoteando inimigos não Campeões. Se atingir um Campeão inimigo, ele para e o arremessa para fora de seu caminho.
+        <br>R - PIOR QUE A MORTE - Urgot dispara uma broca química que perfura o primeiro Campeão inimigo atingido. Se esse Campeão ficar abaixo de um limite mínimo de Vida, Urgot o julgará fraco e o executará.
+        </p>`
+    }else if(campeao == "varus" || campeao == "Varus"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Baixa <br><br>Um dos antigos darkin, Varus era um assassino mortal que amava atormentar seus inimigos, levando-os quase à insanidade antes de disparar a flecha mortal.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - VINGANÇA VIVA - Ao conseguir um abate ou assistência, Varus recebe Velocidade de Ataque temporariamente. O efeito é maior se o inimigo for um Campeão.
+        <br>Q - FLECHA PERFURANTE - Varus prepara um poderoso disparo, que ganha alcance e dano extra quanto mais demorar para ser lançado.
+        <br>W - ALJAVA DA RUÍNA - Passivo: Os ataques básicos de Varus causam Dano Mágico adicional e aplicam Arruinar. As outras habilidades de Varus detonam os acúmulos de Arruinar, causando Dano Mágico com base na Vida máxima do alvo. Ativo: Varus fortalece sua próxima Flecha Perfurante.
+        <br>E - CHUVA DE FLECHAS - Varus dispara uma chuva de flechas que causa Dano Físico e profana o terreno. Terrenos profanados reduzem a Velocidade de Movimento, autocura e regeneração dos inimigos.
+        <br>R - CORRENTE DA CORRUPÇÃO - Varus lança um tentáculo de corrupção que causa dano e imobiliza o primeiro Campeão inimigo atingido, espalhando-se ainda para os Campeões inimigos próximos que ainda não estiverem infectados, imobilizando-os ao contato.
+        </p>`
+    }else if(campeao == "vayne" || campeao == "Vayne"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vayne_0.jpg">`
+        description.innerHTML = `<p>Função: Atirador  |  Dificuldade: Alta <br><br>Shauna Vayne é uma caçadora de monstros demaciana mortal e implacável que dedicou sua vida a encontrar e destruir o monstro que assassinou sua família.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - CAÇADORA NOTURNA - Vayne caça implacavelmente os malfeitores, ganhando 30 de Velocidade de Movimento ao se deslocar em direção a Campeões inimigos próximos.
+        <br>Q - ROLAMENTO - Vayne dá uma cambalhota, equilibrando-se para efetuar seu próximo disparo. Seu próximo ataque causará dano adicional.
+        <br>W - DARDOS DE PRATA - Vayne aprimora suas flechas com um metal raro, tóxico a qualquer coisa maligna. A cada terceiro ataque consecutivo ou habilidade contra o mesmo alvo causa um percentual da Vida máxima do alvo como Dano Verdadeiro adicional.
+        <br>E - CONDENAR - Vayne puxa uma pesada besta de suas costas e dispara um gigantesco projétil em seu alvo, arremessando-o para trás e causando dano. Caso colida com terreno, ele fica empalado, o que lhe causa dano adicional e atordoamento.
+        <br>R - HORA FINAL - Preparando-se para um confronto épico, Vayne recebe Dano de Ataque aumentado, invisibilidade durante o Rolamento, Tempo de Recarga do Rolamento reduzido e mais Velocidade de Movimento adicional de Caçadora Noturna
+        </p>`
+    }else if(campeao == "veigar" || campeao == "Veigar"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Veigar, um mestre entusiasta da feitiçaria das trevas, aderiu a poderes dos quais poucos mortais se aproximam.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - PODER MALIGNO FENOMENAL - Veigar é o maior ser maligno a chegar ao coração de Runeterra - e vai ficar cada vez maior! Atingir um Campeão inimigo com uma habilidade ou executar um golpe final concede a Veigar um aumento permanente de Poder de Habilidade.
+        <br>Q - GOLPE MALIGNO - Veigar faz um disparo de energia das trevas que causa Dano Mágico aos dois primeiros inimigos atingidos. Unidades abatidas por este disparo concedem a ele um pouco de Poder de Habilidade permanentemente.
+        <br>W - MATÉRIA ESCURA - Veigar invoca uma grande massa de Matéria Escura que cai do céu sobre o local-alvo, causando Dano Mágico ao chegar no chão. Os acúmulos de Maldade Extrema reduzem o Tempo de Recarga de Matéria Escura.
+        <br>E - HORIZONTE DE EVENTOS - Veigar distorce os limites do espaço, criando uma prisão que Atordoa os inimigos que a atravessam.
+        <br>R - EXPLOSÃO PRIMORDIAL - Explode o Campeão-alvo inimigo, causando uma grande quantia de Dano Mágico, que aumenta com base na Vida perdida do alvo.
+        </p>`
+    }else if(campeao == "vel" || campeao == "Vel" || campeao == "Vel'koz" || campeao == "vel'koz" || campeao == "Velkoz" || campeao == "velkoz"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Velkoz_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Alta <br><br>Não é claro se Vel'Koz foi a primeira criatura do Vazio a aparecer em Runeterra, mas certamente nunca houve outra que se igualasse ao seu nível de compreensão cruel e calculista.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DESCONSTRUÇÃO ORGÂNICA - As habilidades de Vel'Koz aplicam Desconstrução Orgânica nos inimigos ao contato. Ao chegar a 3 acúmulos, o inimigo receberá uma rajada de Dano Verdadeiro.
+        <br>Q - FISSÃO PLASMÁTICA - Vel'Koz dispara um projétil de plasma que se divide em dois ao ser reativado ou ao atingir um inimigo. O projétil causa dano e redução de velocidade a inimigos ao contato.
+        <br>W - FENDA DO VAZIO - Vel'Koz abre uma fenda ao Vazio que causa uma rajada inicial de dano, explodindo em seguida para causar mais dano após um breve intervalo.
+        <br>E - RUPTURA TECTÔNICA - Vel'Koz faz com que uma área exploda, arremessando inimigos ao ar e afastando inimigos próximos.
+        <br>R - RAIO DESINTEGRADOR DE FORMAS DE VIDA - Vel'Koz desfere um raio canalizado que segue o cursor por 2,5s, causando Dano Mágico. Desconstrução Orgânica pesquisa Campeões inimigos, fazendo com que recebam Dano Verdadeiro em vez de Dano Mágico.
+        </p>`
+    }else if(campeao == "vi" || campeao == "Vi"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Moderada <br><br>Antiga criminosa das ruas violentas de Zaun, Vi é uma mulher temível, impulsiva e explosiva que tem muito pouco respeito por autoridades.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - BLINDAGEM - Vi carrega um escudo ao longo do tempo que pode ser ativado ao atingir um inimigo com uma habilidade.
+        <br>Q - QUEBRA-COFRES - Vi carrega suas manoplas e desfere um soco capaz de quebrar cofres, empurrando-a para frente. Os inimigos que ela atingir são empurrados para trás e recebem um acúmulo de Pancada Certeira.
+        <br>W - PANCADA CERTEIRA - Os socos de Vi quebram a Armadura de seu oponente, causando dano adicional e concedendo a ela Velocidade de Ataque.
+        <br>E - FORÇA EXCESSIVA - O próximo ataque de Vi atravessará seu alvo, causando dano aos inimigos atrás dele.
+        <br>R - SAQUE E ENTERRADA - Vi persegue um inimigo em alta velocidade, empurrando para longe qualquer um em seu trajeto. Ao alcançar o alvo, ela o arremessa ao ar, salta atrás dele e o golpeia de volta ao chão.
+        </p>`
+    }else if(campeao == "viego" || campeao == "Viego"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Assassino  |  Dificuldade: Moderada <br><br>Outrora regente de um reino perdido, Viego morreu há mais de um milênio, quando uma tentativa de trazer sua esposa de volta à vida culminou em uma catástrofe mágica conhecida como "a Ruína".
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DOMINAÇÃO MONÁRQUICA - Inimigos derrotados por Viego se tornam Espectros. Ao atacá-los, Viego toma controle do corpo do inimigo morto temporariamente, curando-se em um percentual da Vida máxima do alvo e ganhando acesso a seus itens e habilidades básicas. Ele substitui a ultimate da vítima por uma conjuração gratuita de sua própria ultimate.
+        <br>Q - ESPADA DO REI DESTRUÍDO - A lâmina espectral de Viego causa uma porcentagem da Vida atual do alvo como dano adicional ao contato de forma passiva e atinge duas vezes inimigos atingidos recentemente por uma habilidade, roubando Vida. Viego pode ativar essa habilidade para golpear, perfurando inimigos à frente dele.
+        <br>W - POSSE ESPECTRAL - Viego carrega antes de avançar, lançando uma esfera de Névoa Negra concentrada que atordoa o primeiro inimigo atingido.
+        <br>E - DOMÍNIO ATORMENTADO - Viego ordena que a Névoa Negra assombre e cerque uma porção de terreno. Viego pode se esconder na Névoa como um Espectro, recebendo Camuflagem, Velocidade de Movimento e Velocidade de Ataque.
+        <br>R - DESTRUIDOR DE CORAÇÕES - Viego teleporta-se para um local próximo e executa um Campeão inimigo ao chegar, atravessando seu coração e liberando uma onda de choque destrutiva que empurra os inimigos.
+        </p>`
+    }else if(campeao == "viktor" || campeao == "Viktor"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viktor_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Alta <br><br>Viktor, o arauto de uma nova era de tecnologia, devotou sua vida ao avanço da humanidade.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - EVOLUÇÃO GLORIOSA - Viktor pode aprimorar suas habilidades básicas quando abater inimigos.
+        <br>Q - PODER DO SIFÃO - Viktor explode uma unidade inimiga, causando Dano Mágico, recebendo um escudo e fortalecendo seu próximo ataque básico. Aprimoramento: O escudo de Poder do Sifão aumenta em 60% e Viktor recebe Velocidade de Movimento adicional na conjuração.
+        <br>W - CAMPO GRAVÍTICO - Viktor conjura um campo gravitacional pesado que causa Lentidão a inimigos em seu raio de ação. Inimigos que permanecerem no dispositivo por tempo demais são Atordoados. Aprimoramento: habilidades não periódicas de Viktor causam Lentidão aos inimigos.
+        <br>E - RAIO DA MORTE - Viktor usa seu braço robótico para disparar um feixe caótico que corta o campo em linha reta, causando dano a todos os inimigos no trajeto. Aprimoramento: Uma explosão segue o rastro de Raio da Morte, causando Dano Mágico.
+        <br>R - TEMPESTADE DO CAOS - Viktor conjura uma singularidade no campo que causa Dano Mágico e interrompe canalizações de inimigos. Em seguida, a singularidade causa Dano Mágico periodicamente a todos os inimigos próximos. Viktor pode redirecionar a singularidade. Aprimoramento: a Tempestade do Caos se move 25% mais rápido.
+        </p>`
+    }else if(campeao == "vladmir" || campeao == "Vladmir"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vladmir_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Um demônio sedento pelo sangue dos mortais, Vladimir tem influenciado os acontecimentos de Noxus desde os primórdios do império.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - PACTO VERMELHO - Cada 40 pontos de Vida adicional concedem 1 de Poder de Habilidade a Vladimir, e cada 1 ponto de Poder de Habilidade concede a Vladimir 1,4 de Vida adicional (não acumula consigo mesmo).
+        <br>Q - TRANSFUSÃO - Vladimir rouba vida do inimigo-alvo. Quando sua reserva estiver cheia, Transfusão terá os benefícios de dano e cura drasticamente aumentados por um breve período.
+        <br>W - POÇA DE SANGUE - Vladimir mergulha numa poça de sangue, tornando-se inalvejável por 2s. Além disso, inimigos na poça sofrem redução de Velocidade de Movimento e Vladimir drena Vida deles.
+        <br>E - MARÉ DE SANGUE - Vladimir paga com a própria Vida para carregar uma reserva de sangue que, quando desferida, causa dano em área ao seu redor, mas pode ser bloqueada por unidades inimigas.
+        <br>R - HEMOPRAGA - Vladimir infecta uma área com uma praga virulenta. Inimigos afetados recebem dano crescente enquanto durar o efeito. Depois de alguns segundos, Hemopraga causa Dano Mágico aos inimigos infectados e cura Vladimir a cada Campeão inimigo atingido.
+        </p>`
+    }else if(campeao == "volibear" || campeao == "Volibear"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Baixa <br><br>Para aqueles que ainda o veneram, Volibear é a forma manifestada da tempestade. Destrutivo, selvagem e implacavelmente obstinado, ele já existia antes mesmo que os mortais andassem sobre a tundra de Freljord.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - A TEMPESTADE IMPLACÁVEL - Os Ataques e habilidades de Volibear concedem Velocidade de Ataque e, às vezes, fazem com que seus Ataques causem Dano Mágico adicional a inimigos próximos.
+        <br>Q - ESMAGAMENTO TROVEJANTE - Volibear ganha velocidade ao correr na direção dos inimigos, Atordoando e causando dano ao primeiro que Atacar.
+        <br>W - FÚRIA SELVAGEM - Volibear causa dano a um inimigo, marcando-o e aplicando efeitos ao contato. Conjurar a habilidade novamente no mesmo alvo causa dano adicional e cura Volibear.
+        <br>E - DIVISOR DE CÉUS - Volibear invoca um relâmpago em um local, causando dano e Lentidão aos inimigos. Ele também ganhará um Escudo se estiver no raio da explosão.
+        <br>R - EMISSÁRIO DA TEMPESTADE - Volibear salta até um local-alvo, causando dano e Lentidão aos inimigos sob ele, além de receber Vida adicional. Torres inimigas próximas ao local de pouso são temporariamente Desabilitadas.
+        </p>`
+    }else if(campeao == "warwick" || campeao == "Warwick"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Baixa <br><br>Warwick é um monstro que caça pelas ruas cinzentas de Zaun. Transformado a partir de experimentos agonizantes, seu corpo agora é fundido a um sistema complexo de câmaras e bombas, um maquinário que enche suas veias com fúria química.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - FOME ETERNA - Os ataques básicos de Warwick causam Dano Mágico adicional. Se ele estiver com menos de 50% de Vida, cura a si mesmo com a mesma quantia. Se ele estiver com menos de 25% de Vida, a cura é triplicada.
+        <br>Q - PRESAS DA FERA - Warwick lança-se à frente e morde seu alvo, causando dano com base em sua Vida máxima e curando a si mesmo com o dano causado.
+        <br>W - CAÇADA SANGRENTA -Warwick percebe inimigos com menos de 50% Vida, recebendo Velocidade de Movimento ao movimentar-se na direção deles e Velocidade de Ataque ao afastar-se deles. Se ficarem com menos de 20% de Vida, ele entra em frenesi e os efeitos são triplicados.
+        <br>E - UIVO PRIMITIVO - Warwick recebe redução de dano por 2,5 segundos. Ao fim do efeito, ou caso seja reativado, ele uiva, fazendo com que inimigos próximos fujam por 1 segundo.
+        <br>R -COERÇÃO INFINITA - Warwick salta em uma direção (escalando com sua Velocidade de Movimento adicional), suprimindo o primeiro Campeão com que colidir por 1,5 segundo.
+        </p>`
+    }else if(campeao == "wukong" || campeao == "Wukong"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Wukong_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Baixa <br><br>Wukong é um trapaceiro vastaya que usa sua força, agilidade e inteligência para confundir os oponentes e deixar a situação a seu favor.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - PELE DE PEDRA - Wukong recebe Armadura e Regeneração de Vida máxima cumulativas quando luta contra Campeões e monstros.
+        <br>Q - GOLPE DESTRUIDOR - O próximo ataque de Wukong recebe Alcance de Ataque, causa dano adicional e reduz a Armadura do alvo por alguns segundos.
+        <br>W - GUERREIRO TRAPACEIRO - Wukong fica Invisível e avança em uma direção, deixando para trás um clone que atacará inimigos próximos.
+        <br>E - RESPLENDOR DAS NUVENS - Wukong avança em direção ao inimigo-alvo e conjura imagens de si próprio para atacar inimigos próximos, causando dano aos atingidos.
+        <br>R - CICLONE - Wukong estende seu cajado e gira repetidamente, recebendo Velocidade de Movimento. Inimigos atingidos sofrem dano e são arremessados ao ar.
+        </p>`
+    }else if(campeao == "xayah" || campeao == "Xayah"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xayah_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Moderada <br><br>Mortal e precisa, Xayah é uma vastaya revolucionária que trava sua própria batalha para salvar seu povo. Ela usa sua agilidade, malícia e plumas afiadas para retalhar qualquer um que atrapalhe seu caminho.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - CORTES CERTEIROS - Depois de usar uma habilidade, os próximos ataques básicos de Xayah acertam todos os alvos pelo caminho e deixam uma Pluma.
+        <br>Q - PUNHAIS DUPLOS - Xayah arremessa dois punhais que causam dano e deixam cair Plumas que podem retornar para ela.
+        <br>W - PLUMAGEM MORTÍFERA - Xayah cria uma tempestade de lâminas que aumenta o dano e a velocidade dos seus ataques básicos, além de conceder Velocidade de Movimento se ela atacar um Campeão.
+        <br>E - INVOCADORA DAS LÂMINAS - Xayah recolhe todas as Plumas que caíram, causando dano e enraizando os inimigos.
+        <br>R - TEMPESTADE DE PLUMAS - Xayah salta pelo ar, ficando inalvejável e arremessando um leque de punhais, além de deixar cair Plumas que podem voltar para ela.
+        </p>`
+    }else if(campeao == "xerath" || campeao == "Xerath"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xerath_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: alta <br><br>Xerath é um mago Ascendente da antiga Shurima, um ser de energia arcana que existe em meio a estilhaços de um sarcófago mágico.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - OSCILAÇÃO DE MANA - Os ataques básicos de Xerath restauram Mana periodicamente.
+        <br>Q - PULSO ARCANO - Dispara um raio de energia de longo alcance, causando Dano Mágico a todos os alvos atingidos.
+        <br>W - OLHO DA DESTRUIÇÃO - Invoca uma barragem de energia arcana, causando Dano Mágico e redução de Velocidade de Movimento a todos os inimigos em uma área. Alvos no centro recebem dano adicional e uma redução de velocidade mais forte.
+        <br>E - ORBE ELETRIZANTE - Causa Dano Mágico a um inimigo e o atordoa.
+        <br>R - RITUAL ARCANO - Xerath imobiliza a si mesmo e dispara diversas barragens de longa distância.
+        </p>`
+    }else if(campeao == "xin zhao" || campeao == "Xin Zhao"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/XinZhao_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Baixa <br><br>Xin Zhao é um guerreiro determinado, leal à dinastia Lumescudo.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DETERMINAÇÃO - Cada terceiro ataque básico causa dano adicional e cura Xin Zhao.
+        <br>Q - GOLPE DE TRÊS GARRAS - O próximos 3 ataques normais de Xin Zhao causam mais dano. O último arremessa o oponente ao ar.
+        <br>W - VENTO VIRA RELÂMPAGO - Xin Zhao golpeia à sua frente com sua lança e a enfia para frente, reduzindo a velocidade dos inimigos atingidos.
+        <br>E - INVESTIDA AUDACIOSA - Xin Zhao avança na direção de um inimigo, causando dano a todos os inimigos na área e reduzindo a velocidade deles temporariamente.
+        <br>R - GUARDA CRESCENTE - Xin Zhao causa dano a inimigos próximos com base em sua Vida atual e arremessa alvos não desafiados para trás. Ele é inalvejável para Campeões fora do círculo criado.       
+        </p>`
+    }else if(campeao == "yasuo" || campeao == "Yasuo"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Alta <br><br>Yasuo, um ioniano extremamente determinado, é também um ágil espadachim que usa o próprio ar como arma para enfrentar seus inimigos.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - ESTILO DO ERRANTE - A Chance de Acerto Crítico do Yasuo é aumentada. Além disso, Yasuo vai gerando um Escudo sempre que se movimenta. O Escudo é ativado quando Yasuo sofre dano de um Campeão ou monstro.
+        <br>Q - TEMPESTADE DE AÇO - Golpeia à frente, causando dano a todos os inimigos em linha reta. Ao contato, Tempestade de Aço concede um acúmulo de Tempestade Crescente por alguns segundos. Com 2 acúmulos, Tempestade de Aço desfere um tornado que arremessa inimigos ao ar. Tempestade de Aço é tratada como ataque básico e escala com as mesmas coisas.
+        <br>W - PAREDE DE VENTO - Cria uma parede movediça que bloqueia todos os projéteis inimigos por 4 segundos.
+        <br>E - ESPADA ÁGIL - Avança e atravessa o inimigo alvo, causando Dano Mágico. Cada conjuração aumenta o dano base de seu próximo avanço, até um limite máximo. Não pode ser conjurada novamente no mesmo inimigo por alguns segundos. Se Tempestade de Aço for conjurada durante o avanço, o ataque será circular.
+        <br>R - ÚLTIMO SUSPIRO - Teletransporta-se para um Campeão inimigo arremessado ao ar, causando Dano Físico e mantendo no ar todos os inimigos da área que foram arremessados ao ar. Concede o máximo de Fluxo, mas zera todos os acúmulos de Tempestade Crescente Por um período moderado a seguir, os Acertos Críticos de Yasuo recebem Penetração de Armadura adicional significativa.
+        </p>`
+    }else if(campeao == "yone" || campeao == "Yone"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="mdi:sword-cross" data-inline="false"></span> Assassino  |  Dificuldade: Alta <br><br>Em vida, ele foi Yone; meio-irmão de Yasuo e um respeitado aluno da escola de espadachins de seu vilarejo.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - ESTILO DO CAÇADOR - Yone causa Dano Mágico a cada segundo Ataque. Além disso, sua Chance de Acerto Crítico é aumentada.
+        <br>Q - AÇO MORTAL - Golpeia à frente, causando dano a todos os inimigos em linha reta. Ao contato, ganha um acúmulo de Tempestade Crescente por alguns segundos. Com 2 acúmulos, Aço Mortal faz com que Yone avance com o vento, arremessando ao ar os inimigos. Aço Mortal é tratada como ataque básico e escala da mesma forma.
+        <br>W - FENDA ESPIRITUAL - Ataca à frente, causando dano a todos os inimigos em uma área de cone. Concede um escudo a Yone. O valor do escudo aumenta com base no número de Campeões atingidos pelo golpe. O Tempo de Recarga e o tempo de conjuração de Fenda Espiritual escalam com Velocidade de Ataque.
+        <br>E - DESATAR DA ALMA - O espírito de Yone deixa seu corpo para trás e recebe Velocidade de Movimento. Quando essa habilidade termina, o espírito de Yone volta ao corpo e ele repete parte do dano causado na forma espiritual.
+        <br>R - DESTINO SELADO - Yone teleporta-se para trás do último Campeão em uma linha, desferindo um golpe tão poderoso que puxa na direção dele todos os inimigos atingidos.
+        </p>`
+    }else if(campeao == "yorick" || campeao == "Yorick"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yorick_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Moderada <br><br>Último sobrevivente de uma ordem religiosa há muito esquecida, Yorick é ao mesmo tempo abençoado e amaldiçoado pelo poder que exerce sobre os mortos.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - PASTOR DE ALMAS - A Horda Maldita: Yorick pode invocar Andarilhos da Névoa e atacar inimigos próximos.
+        <br>Q - EXTREMA-UNÇÃO - Yorick causa dano adicional em seu próximo ataque, além de curar a si mesmo. Se o alvo for abatido, uma cova será aberta.
+        <br>W - PROCISSÃO SOMBRIA - Yorick invoca uma parede destrutível no local-alvo, que bloqueará a movimentação de inimigos.
+        <br>E - NÉVOA DOS LAMENTOS - Yorick arremessa um glóbulo de Névoa Negra que causa dano, redução de velocidade e marca inimigos.
+        <br>R - LOUVOR DAS ILHAS - Yorick invoca a Donzela da Névoa, que faz com que seus ataques contra os alvos dela causem dano adicional. A Donzela também faz surgir Andarilhos automaticamente a partir de inimigos mortos. 
+        </p>`
+    }else if(campeao == "yuumi" || campeao == "yuumi"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Baixa <br><br>Uma gata mágica de Bandópolis, Yuumi já foi a mascote de uma feiticeira yordle chamada Norra. Mas quando sua mestra desapareceu misteriosamente, Yuumi se tornou a Guardiã do Livro dos Portais de Norra.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - BATER E BLOQUEAR - Periodicamente, quando Yuumi ataca um Campeão, ela restaura Mana e recebe um escudo que a segue, protegendo ela e o aliado ao qual está conectada.
+        <br>Q - PROJÉTIL ERRANTE - Yuumi dispara um projétil, causando Dano Mágico ao primeiro alvo que atingir. O projétil causa dano adicional e redução de velocidade se demorar pelo menos 1s para chegar ao seu alvo. Enquanto conectada, o projétil pode ser controlado pelo cursor do mouse.
+        <br>W - VOCÊ E EU! - Passivamente, Yuumi aumenta a Força Adaptativa de seu aliado e a sua própria. Ativamente, Yuumi avança em direção a um aliado-alvo, tornando-se inalvejável por qualquer ataque, exceto de torres.
+        <br>E - FRENÉTICA - Cura Yuumi e aumenta a Velocidade de Movimento e a Velocidade de Ataque. Se ela estiver conectada, isso afetará seu aliado em vez dela mesma.
+        <br>R - CAPÍTULO FINAL - Yuumi canaliza sete disparos que causam dano, enraizando inimigos atingidos por três ou mais disparos. Ela também pode se mover, se conectar e conjurar Frenética! durante a canalização.
+        </p>`
+    }else if(campeao == "zac" || campeao == "Zac"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zac_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Alta <br><br>Zac é produto de um derramamento tóxico que percorreu um tubo quimtec e se armazenou em uma caverna isolada no Sumidouro de Zaun.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DIVISÃO CELULAR - Sempre que Zac atinge um inimigo com uma habilidade, ele perde parte de si mesmo que pode ser reabsorvida para restaurar Vida. Ao receber dano letal, Zac divide-se em 4 pedaços que tentam se recombinar. Se qualquer pedaço permanecer, ele ressuscitará uma quantia de Vida, dependendo da vida dos pedaços sobreviventes. Cada pedaço tem um percentual da Vida máxima de Zac, de sua Armadura e de Resistência Mágica. Essa habilidade tem 5 minutos de Tempo de Recarga.
+        <br>Q - ESTICADA - Zac estica um braço, agarrando um inimigo. Atacar um inimigo diferente o fará arremessar ambos os alvos na direção um do outro.
+        <br>W - MATÉRIA INSTÁVEL - Zac explode para fora em direção a inimigos próximos, causando um percentual de suas Vidas máximas como Dano Mágico.
+        <br>E - ESTILINGUE ELÁSTICO - Zac segura o chão com seus braços e se estica para trás, lançando-se para frente.
+        <br>R - VAMOS PULAR! - Zac pula quatro vezes, arremessando inimigos atingidos ao ar e reduzindo a velocidade deles.
+        </p>`
+    }else if(campeao == "zed" || campeao == "Zed"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="mdi:sword-cross" data-inline="false"></span> Assassino  |  Dificuldade: Moderada <br><br>Absolutamente impiedoso e implacável, Zed é o líder da Ordem das Sombras; uma organização criada com a intenção de militarizar as tradições marciais e mágicas de Ionia para expulsar os invasores noxianos.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - DESPREZO PELOS FRACOS - Os ataques básicos de Zed contra alvos com pouca Vida causam Dano Mágico adicional. Esse efeito só pode acontecer uma vez no mesmo alvo, com intervalo de alguns segundos.
+        <br>Q - SHURIKEN LAMINADO - Zed e suas sombras arremessam seus shurikens. Cada shuriken causa dano em todos os inimigos atingidos.
+        <br>W - SOMBRA VIVA - Efeito passivo: Zed recebe energia sempre que ele e suas sombras atingem um inimigo com a mesma habilidade. A energia só pode ser recebida uma vez a cada conjuração de habilidade. Ativo: A sombra de Zed avança e fica no mesmo lugar por alguns segundos. Quando Sombra Viva é reativada, Zed troca de posição com sua sombra.
+        <br>E - CORTE SOMBRIO - Zed e suas sombras atacam, causando dano a inimigos próximos.
+        <br>R - MARCA FATAL - Zed se torna inalvejável e avança contra um Campeão inimigo para marcá-lo. Após 3 segundos, a marca é ativada, repetindo parte de todo o dano que Zed causou ao alvo enquanto ele estava marcado. 
+        </p>`
+    }else if(campeao == "ziggs" || campeao == "Ziggs"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ziggs_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>O yordle Ziggs, amante de grandes bombas e pavios curtos, é uma força explosiva da natureza.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - PAVIO CURTO - Periodicamente, o próximo ataque básico de Ziggs causa Dano Mágico adicional. Esse Tempo de Recarga é reduzido sempre que Ziggs usa uma habilidade.
+        <br>Q - BOMBA SALTITANTE -Ziggs arremessa uma bomba que causa Dano Mágico.
+        <br>W - CARGA CONCENTRADA - Ziggs arremessa uma carga explosiva que detona depois de 4s ou quando a habilidade é ativada novamente. A explosão causa Dano Mágico a inimigos, arremessando-os para longe. Ziggs também é empurrado, mas não recebe dano, além de poder usar Carga para Hexplodir torres inimigas vulneráveis.
+        <br>E - CAMPO MINADO DE HEXPLOSIVOS - Ziggs espalha minas de proximidade que detonam ao contato com inimigos, causando Dano Mágico e redução de velocidade. Várias detonações de minas no mesmo alvo causam dano reduzido.
+        <br>R - BOMBA MEGA INFERNAL - Ziggs põe para funcionar sua maior criação, a Bomba Mega Infernal, arremessando-a de uma enorme distância. Inimigos no centro da detonação recebem mais dano do que aqueles mais distantes.
+        </p>`
+    }else if(campeao == "zilean" || campeao == "Zilean"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zilean_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Moderada <br><br>Outrora um poderoso mago icathiano, Zilean se obcecou com a passagem do tempo depois de testemunhar a destruição de sua terra natal pelo Vazio.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - TEMPO ENGARRAFADO - Zilean armazena tempo como Experiência, podendo concedê-la aos aliados. Quando tiver Experiência o suficiente para completar o nível de um aliado, Zilean pode clicar com o botão direito nele para conceder os pontos. Zilean recebe a mesma quantidade de Experiência que concede.
+        <br>Q - BOMBA-RELÓGIO - Arremessa uma bomba no local-alvo, que gruda em unidades que se aproximarem (priorizando Campeões). Ela detona após 3 segundos, causando dano em área. Se uma Bomba-relógio for detonada antecipadamente por outra, o efeito também atordoa inimigos.
+        <br>W - RETROCEDER - Zilean pode se preparar para confrontos futuros, reduzindo o Tempo de Recarga de suas outras habilidades básicas.
+        <br>E - DISTORÇÃO NO TEMPO - Zilean manipula o tempo ao redor de qualquer unidade, reduzindo a Velocidade de Movimento do inimigo ou aumentando a Velocidade de Movimento de um aliado por um curto período.
+        <br>R - ALTERAÇÃO TEMPORAL - Zilean coloca uma runa protetora do tempo em um Campeão aliado, teletransportando-o de volta no tempo se ele receber um dano letal.
+        </p>`
+    }else if(campeao == "zoe" || campeao == "Zoe"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zoe_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Como a personificação da travessura, imaginação e mudança, Zoe atua como a mensageira cósmica de Targon, anunciando a chegada de grandes eventos que redefinem mundos.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - BRILILIM! - O próximo ataque básico após Zoe conjurar uma habilidade causa Dano Mágico adicional.
+        <br>Q - ESTRELA DESVIADA! - Zoe dispara um projétil que pode ser redirecionado durante o percurso. Causa mais dano quanto maior for a distância percorrida em linha reta.
+        <br>W - ROUBO ARCANO - Zoe pode apanhar os vestígios das conjurações de Feitiço de Invocador ou de itens ativos do inimigo para que ela mesma os conjure. Sempre que ela conjura um Feitiço de Invocador, ela ganha 3 projéteis que são disparados contra o alvo mais próximo.
+        <br>E - BOLHA DO SONINHO - Faz com que o alvo fique sonolento e depois adormeça. A primeira fonte de dano que interromper o sono é dobrada, até determinado limite.
+        <br>R - SALTO DIMENSIONAL - Teleporta-se para uma posição próxima por 1s, depois se teleporta de volta.
+        </p>`
+    }else if(campeao == "zyra" || campeao == "Zyra"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zyra_0.jpg">`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Nascida em uma antiga catástrofe mágica, Zyra é a fúria da natureza em forma física e uma sedutora criatura híbrida entre planta e humana, que faz surgir a vida a cada passo que dá.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - JARDIM DE ESPINHOS - Sementes surgem periodicamente ao redor de Zyra, mais rapidamente dependendo do nível. Zyra pode conjurar Farpas Mortais ou Pântano das Raízes próximo a sementes para fazer surgir plantas que lutarão por ela.
+        <br>Q - FARPAS MORTAIS - Vinhas espessas se espalham pelo chão e explodem em farpas, causando Dano Mágico a inimigos dentro da área. Se conjurada perto de uma semente, Farpas Mortais faz surgir uma planta Cospe-Espinhos, que dispara contra inimigos distantes.
+        <br>W - CRESCIMENTO DESENFREADO - Zyra planta uma semente com duração de 60s. Conjurar Farpas Mortais e Pântano das Raízes perto das sementes fará surgir plantas que lutam por Zyra. Zyra pode armazenar várias sementes ao mesmo tempo, e abater inimigos reduz o tempo de recarregamento de Crescimento Desenfreado.
+        <br>E - PÂNTANO DAS RAÍZES - Zyra lança vinhas pelo chão para prenderem seu alvo, causando dano e enraizando inimigos atingidos. Se conjurada próxima a uma semente, Pântano das Raízes faz surgir Vinhas Ásperas com ataques de curta distância que reduzem a Velocidade de Movimento do inimigo.
+        <br>R - ESPINHOS SUFOCANTES - Zyra invoca raízes retorcidas no local-alvo, causando dano a inimigos conforme elas se expandem e arremessando-os ao ar quando se contraem. Plantas ao alcance das raízes ficam enfurecidas.
         </p>`
     }
 }
