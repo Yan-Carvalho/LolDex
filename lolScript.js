@@ -1,4 +1,33 @@
-
+$(function(){
+    var text = ["Aatrox", "Ahri", "Akali", "Alistar","Amumu","Anivia","Annie","Aphelius","Ashe","Aurelion sol",
+                "Cho'Gath","Azir","Bardo","Blitzcrank","Brand","Braum","Caitlyn","Camille",
+                "Cassiopeia","Corki","Darius","Diana","Dr.Mundo","Draven","Ekko",
+                "Elise","Evelynn","Ezreal","Fiddlesticks","Fiora","Fizz","Galio",
+                "Gangplank","Garen","Gnar","Gragas","Graves","Hecarim","Heimerdinger",
+                "Illaoi","Irelia","Ivern","Janna","Jarvan IV","Jax","Jayce","Jhin",
+                "Jinx","Kai'sa","Kalista","Karma","Karthus","Kassadin","Katarina",
+                "Kayle","Kayn","Kennen","Kah'zix","Kindred","Kled", "Kog'Maw" ,"Leblanc",
+                "Lee sin","Leona","Lillia","Lissandra","Lucian","Lulu","Lux",
+                "Malphite","Malzahar","Maokai","Master yi","Miss fortune","Mordekaiser",
+                "Morgana","Nami","Nasus","Nautilus", "Neeko","Nidalee", "Nocturne",
+                "Nunu","Olaf","Orianna","Ornn","Pantheon","Poppy","Pyke","Qiyana",
+                "Quinn","Rakan","Rammus","Rek'sai","Rell","Renekton","Rengar",
+                "Riven","Rumble","Ryze","Samira","Sejuani","Senna","Seraphine",
+                "Sett","Shaco","Shen","Shyvana","Singed","Sion","Sivir","Skarner",
+                "Sona","Soraka","Swain","Sylas","Syndra","Tahm Kench","Taliyah",
+                "Talon","Taric","Teemo","Tresh","Tristana","Trundle","Tryndamere",
+                "Twisted Fate","Twitch","Udyr","Urgot","Varus","Vayne","Veigar",
+                "Vel'koz","Vi","Viego","Viktor","Vladimir","Volibear","Warwick",
+                "Wukong","Xayah","Xerath","Xin Zhao","Yasuo","Yone","Yorick",
+                "Yuumi","Zac","Zed","Ziggs","Zilean","Zoe","Zyra"];
+                
+    $("#text").autocomplete({
+        source: text,
+        minLength:3,
+        delay: 300,
+        autoFocus: true
+    });
+});
 
 let champion = document.getElementById("champion")
 let description = document.getElementById("description")
@@ -39,11 +68,7 @@ function champ(){
         W - CRISTALIZAR - Anivia condensa a umidade do ar, transformando-a num muro impenetrável de gelo que bloqueia todo o movimento. O muro dura um curto período antes de derreter.<br><iframe src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_W1.webm"></iframe><br>
         E - CONGELAMENTO - Com um bater de asas, Anivia dispara uma rajada congelante de vento no alvo, causando dano. Se o alvo tiver sido atingido recentemente por Lampejo Gelado ou sofrido dano de uma Tempestade Glacial totalmente formada, o dano sofrido é dobrado.<br><iframe src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_E1.webm"></iframe><br>
         R - TEMPESTADE GLACIAL - Anivia invoca uma chuva torrencial de gelo e granizo para causar dano aos inimigos e atrasar seu avanço.<iframe src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_R1.webm" ></iframe></p>`
-        //Uma deusa aqui!!
-    }else if(campeao == "thays" || campeao == "Thays"){
-        champion.innerHTML = `<img class="imgChampion2" src="thay.png"> `
-        description.innerHTML = `<p> O amor da minha vida, linda demais, merece ate um beijo agora!! BORA CASAR MINHA MULHER!!! </p>`
-        //Uma deusa aqui!!
+     
     }else if(campeao == "annie" || campeao == "Annie"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg">`
         description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: moderada <br><br>Perigosa, mas adoravelmente precoce, Annie é uma pequena maga com imenso poder piromaníaco.
@@ -162,7 +187,7 @@ function champ(){
         <br>E - PRESAS DUPLAS - Cassiopeia desfere um ataque que causa dano adicional a alvos envenenados, curando a si mesma com um percentual do dano causado. Se o alvo morrer com este ataque, Cassiopeia recupera Mana.
         <br>R - OLHAR PETRIFICADOR - Cassiopeia lança uma espiral de energia mágica de seus olhos, atordoando quaisquer inimigos à sua frente que estiverem de frente para ela e reduzindo a velocidade de quaisquer outros que estiverem de costas.
         </p>`
-    }else if(campeao == "cho gath" || campeao == "Cho gath" || campeao=="Cho" || campeao =="cho" || campeao =="chogath" || campeao=="Chogath"){
+    }else if(campeao == "cho gath" || campeao == "Cho'Gath" || campeao=="Cho" || campeao =="cho" || campeao =="chogath" || campeao=="Chogath"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg">`
         description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Moderada <br><br> A partir do momento em que Cho'Gath emergiu da terra para a luz do sol ofuscante de Runeterra, a besta foi motivada por pura fome insaciável.
         <br><br>HABILIDADES<br><br>
@@ -412,7 +437,7 @@ function champ(){
         <br>E - OLHO DA TEMPESTADE - Janna conjura uma ventania defensiva que protege um Campeão ou torre aliada do dano recebido e aumenta seu Dano de Ataque.
         <br>R - MONÇÃO - Janna se cerca de uma tempestade mágica, empurrando inimigos para trás. Assim que a tempestade se estabelece, ventos suaves curam os aliados próximos enquanto a habilidade estiver ativa.
         </p>`
-    }else if(campeao == "jarvan" || campeao == "Jarvan"){
+    }else if(campeao == "jarvan" || campeao == "Jarvan IV"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/JarvanIV_0.jpg">`
         description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Moderada <br><br>O Príncipe Jarvan, descendente da Dinastia Lumescudo, é o atual herdeiro do trono de Demacia.
         <br><br>HABILIDADES<br><br>
@@ -586,7 +611,7 @@ function champ(){
         <br>E - JUSTAR - Kled avança, causando Dano Físico e recebendo um breve surto de velocidade. Ele pode conjurar esta habilidade novamente para recuar através do alvo inicial, causando a mesma quantidade de dano.
         <br>R - AVANÇAAAAAAAR!!! - Kled e Skaarl avançam em direção a um local, deixando um rastro que concede velocidade e criando um escudo. Skaarl marca e vai de encontro ao primeiro Campeão inimigo encontrado.
         </p>`
-    }else if(campeao == "kogmaw" || campeao == "Kogmaw" || campeao == "Kog'maw" || campeao == "kog'maw"){
+    }else if(campeao == "kogmaw" || campeao == "Kogmaw" || campeao == "Kog'Maw" || campeao == "kog'maw"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/KogMaw_0.jpg">`
         description.innerHTML = `<p>Função: <span class="iconify" data-icon="emojione-monotone:bow-and-arrow" data-inline="false"></span> Atirador  |  Dificuldade: Moderada <br><br>Vomitado para fora de uma aparição podre do Vazio nas profundezas das terras desertas de Icathia, Kog'Maw é uma criatura inquisitiva e pútrida com uma boca cáustica gigantesca.
         <br><br>HABILIDADES<br><br>
@@ -1156,7 +1181,7 @@ function champ(){
         <br>E - DISPERSAR OS FRACOS - Syndra afasta inimigos e Esferas Negras, causando Dano Mágico. Inimigos atingidos pelas Esferas Negras ficam atordoados.
         <br>R - PODER IRRESTRITO - Syndra bombardeia um Campeão inimigo com todas as suas Esferas Negras.
         </p>`
-    }else if(campeao == "tahm" || campeao == "Tahm"){
+    }else if(campeao == "tahm" || campeao == "Tahm Kench"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/TahmKench_0.jpg">`
         description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Moderada <br><br>Conhecido por muitos nomes ao longo da história, Tahm Kench viaja pelas águas de Runeterra, preenchendo seu insaciável apetite com o pesar dos outros.
         <br><br>HABILIDADES<br><br>
@@ -1246,7 +1271,7 @@ function champ(){
         <br>E - CORTE GIRATÓRIO - Tryndamere avança em direção a uma unidade-alvo, causando dano aos inimigos em seu trajeto.
         <br>R - FÚRIA SEM FIM - O desejo de Tryndamere pela batalha se torna tão forte que ele fica incapaz de morrer, não importa o quão ferido ele esteja.
         </p>`
-    }else if(campeao == "twisted" || campeao == "Twisted"){
+    }else if(campeao == "twisted" || campeao == "Twisted Fate"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/TwistedFate_0.jpg">`
         description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Alta <br><br>Twisted Fate é um infame trapaceiro que apostou e encantou tudo em seu caminho por boa parte do mundo, conquistando a inimizade e admiração tanto de ricos quanto tolos.
         <br><br>HABILIDADES<br><br>
@@ -1356,8 +1381,8 @@ function champ(){
         <br>E - RAIO DA MORTE - Viktor usa seu braço robótico para disparar um feixe caótico que corta o campo em linha reta, causando dano a todos os inimigos no trajeto. Aprimoramento: Uma explosão segue o rastro de Raio da Morte, causando Dano Mágico.
         <br>R - TEMPESTADE DO CAOS - Viktor conjura uma singularidade no campo que causa Dano Mágico e interrompe canalizações de inimigos. Em seguida, a singularidade causa Dano Mágico periodicamente a todos os inimigos próximos. Viktor pode redirecionar a singularidade. Aprimoramento: a Tempestade do Caos se move 25% mais rápido.
         </p>`
-    }else if(campeao == "vladmir" || campeao == "Vladmir"){
-        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vladmir_0.jpg">`
+    }else if(campeao == "vladimir" || campeao == "Vladimir"){
+        champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vladimir_0.jpg">`
         description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Um demônio sedento pelo sangue dos mortais, Vladimir tem influenciado os acontecimentos de Noxus desde os primórdios do império.
         <br><br>HABILIDADES<br><br>
         PASSIVA - PACTO VERMELHO - Cada 40 pontos de Vida adicional concedem 1 de Poder de Habilidade a Vladimir, e cada 1 ponto de Poder de Habilidade concede a Vladimir 1,4 de Vida adicional (não acumula consigo mesmo).
@@ -1456,7 +1481,7 @@ function champ(){
         <br>E - NÉVOA DOS LAMENTOS - Yorick arremessa um glóbulo de Névoa Negra que causa dano, redução de velocidade e marca inimigos.
         <br>R - LOUVOR DAS ILHAS - Yorick invoca a Donzela da Névoa, que faz com que seus ataques contra os alvos dela causem dano adicional. A Donzela também faz surgir Andarilhos automaticamente a partir de inimigos mortos. 
         </p>`
-    }else if(campeao == "yuumi" || campeao == "yuumi"){
+    }else if(campeao == "yuumi" || campeao == "Yuumi"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_0.jpg">`
         description.innerHTML = `<p>Função: <span class="iconify" data-icon="carbon:manage-protection" data-inline="false"></span> Suporte  |  Dificuldade: Baixa <br><br>Uma gata mágica de Bandópolis, Yuumi já foi a mascote de uma feiticeira yordle chamada Norra. Mas quando sua mestra desapareceu misteriosamente, Yuumi se tornou a Guardiã do Livro dos Portais de Norra.
         <br><br>HABILIDADES<br><br>
