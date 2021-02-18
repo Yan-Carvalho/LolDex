@@ -1,33 +1,3 @@
-$(function(){
-    var text = ["Aatrox", "Ahri", "Akali", "Alistar","Amumu","Anivia","Annie","Aphelius","Ashe","Aurelion sol",
-                "Cho'Gath","Azir","Bardo","Blitzcrank","Brand","Braum","Caitlyn","Camille",
-                "Cassiopeia","Corki","Darius","Diana","Dr.Mundo","Draven","Ekko",
-                "Elise","Evelynn","Ezreal","Fiddlesticks","Fiora","Fizz","Galio",
-                "Gangplank","Garen","Gnar","Gragas","Graves","Hecarim","Heimerdinger",
-                "Illaoi","Irelia","Ivern","Janna","Jarvan IV","Jax","Jayce","Jhin",
-                "Jinx","Kai'sa","Kalista","Karma","Karthus","Kassadin","Katarina",
-                "Kayle","Kayn","Kennen","Kah'zix","Kindred","Kled", "Kog'Maw" ,"Leblanc",
-                "Lee sin","Leona","Lillia","Lissandra","Lucian","Lulu","Lux",
-                "Malphite","Malzahar","Maokai","Master yi","Miss fortune","Mordekaiser",
-                "Morgana","Nami","Nasus","Nautilus", "Neeko","Nidalee", "Nocturne",
-                "Nunu","Olaf","Orianna","Ornn","Pantheon","Poppy","Pyke","Qiyana",
-                "Quinn","Rakan","Rammus","Rek'sai","Rell","Renekton","Rengar",
-                "Riven","Rumble","Ryze","Samira","Sejuani","Senna","Seraphine",
-                "Sett","Shaco","Shen","Shyvana","Singed","Sion","Sivir","Skarner",
-                "Sona","Soraka","Swain","Sylas","Syndra","Tahm Kench","Taliyah",
-                "Talon","Taric","Teemo","Tresh","Tristana","Trundle","Tryndamere",
-                "Twisted Fate","Twitch","Udyr","Urgot","Varus","Vayne","Veigar",
-                "Vel'koz","Vi","Viego","Viktor","Vladimir","Volibear","Warwick",
-                "Wukong","Xayah","Xerath","Xin Zhao","Yasuo","Yone","Yorick",
-                "Yuumi","Zac","Zed","Ziggs","Zilean","Zoe","Zyra"];
-                
-    $("#text").autocomplete({
-        source: text,
-        minLength:3,
-        delay: 300,
-        autoFocus: true
-    });
-});
 
 let champion = document.getElementById("champion")
 let description = document.getElementById("description")
