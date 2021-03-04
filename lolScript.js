@@ -4,30 +4,56 @@ let description = document.getElementById("description")
 
 function champ(){
     let campeao = document.getElementById("text").value;
-    if(campeao == "aatrox" || campeao == "Aatrox"){
+     if(campeao == "aatrox" || campeao == "Aatrox"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg">`
-        description.innerHTML = `<p>Antes defensores honrados de Shurima contra o temido Vazio, 
-        Aatrox e sua raça no fim se tornaram uma ameaça 
-        ainda maior para Runeterra e a única coisa capaz de derrotá-los foi um tipo de feitiçaria 
-        mortal e traiçoeira. Mas após séculos de encarceramento, Aatrox foi o primeiro a encontrar a liberdade novamente,
-        corrompendo e transformando qualquer tolo que tentasse empunhar a arma mágica que continha sua essência.</p>`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="ri:boxing-fill" data-inline="false"></span> Lutador  |  Dificuldade: Moderada <br><br>Antes defensores honrados de Shurima contra o temido Vazio, Aatrox e seus irmãos acabaram se tornando uma ameaça ainda maior para Runeterra, e a única coisa capaz de derrotá-los foi um tipo de feitiçaria mortal e traiçoeira.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - POSTURA DO ARAUTO DA MORTE - Periodicamente, o próximo ataque básico de Aatrox causa Dano Físico adicional e o cura com base na Vida máxima do alvo.
+        <br>Q - A ESPADA DARKIN - Aatrox bate sua espada no chão, causando Dano Físico. Ele pode bater até três vezes, cada vez em uma área de ação diferente.
+        <br>W - CORRENTES INFERNAIS - Aatrox bate no chão, causando dano ao primeiro inimigo atingido. Campeões e Monstros Grandes precisam sair da área de impacto rapidamente ou serão arrastados para o centro e receberão dano novamente.
+        <br>E - AVANÇO UMBRAL - Passivamente, Aatrox se cura quando causa dano a Campeões inimigos. Quando ativado, ele avança em uma direção.
+        <br>R - ANIQUILADOR DE MUNDOS - Aatrox libera sua forma demoníaca, aterrorizando tropas inimigas próximas, ganhando Dano de Ataque, cura aumentada e Velocidade de Movimento. Se ele conseguir um abate, este efeito é estendido.
+        </p>`
     }else if(campeao == "ahri" || campeao == "Ahri"){
         champion.innerHTML = `<img class="imgChampion2" src="https://cdn1.dotesports.com/wp-content/uploads/sites/3/2020/07/25201017/Ahri_0.jpg">`
-        description.innerHTML = `<p>Naturalmente ligada à magia do reino espiritual, Ahri é uma vastayesa misteriosa,
-         com traços de raposa, que busca seu lugar no mundo. </p>`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Moderada <br><br>Com uma conexão inata com o poder latente de Runeterra, Ahri é uma vastaya capaz de transformar magia em orbes de pura energia.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - FURTO DE ESSÊNCIA - Quando Ahri atinge 9 inimigos com suas habilidades, sua próxima habilidade também a cura por cada inimigo atingido.
+        <br>Q - ORBE DA ILUSÃO - Ahri lança e puxa de volta seu orbe, causando Dano Mágico na ida e Dano Verdadeiro na volta.
+        <br>W - FOGO DE RAPOSA - Ahri recebe um breve impulso de Velocidade de Movimento e lança três Fogos de Raposa que perseguem e atacam inimigos próximos.
+        <br>E - ENCANTO - Ahri manda um beijo que causa dano e encanta um inimigo, interrompendo imediatamente qualquer habilidade de movimento em progresso e fazendo com que ele ande inofensivamente em sua direção. O alvo temporariamente sofre dano aumentado de Ahri.
+        <br>R - ÍMPETO ESPIRITUAL - Ahri avança e atira raios de essência, causando dano a inimigos próximos. Ímpeto Espiritual pode ser conjurado até três vezes antes de entrar em Tempo de Recarga.
+        </p>`
     }else if(campeao == "akali" || campeao == "Akali"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg">`
-        description.innerHTML = `<p>Abandonando a Ordem Kinkou e seu título de Punho das Sombras, Akali agora ataca sozinha, 
-        pronta para ser a arma mortal de que seu povo precisa.</p>`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="mdi:sword-cross" data-inline="false"></span> Assassino  |  Dificuldade: Moderada <br><br>Abandonando a Ordem Kinkou e seu título de Punho das Sombras, Akali agora ataca sozinha, pronta para ser a arma mortal que seu povo precisa.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - MARCA DO ASSASSINO - Causar dano com habilidades em Campeões cria um círculo de energia em volta deles. Sair desse círculo fortalece o próximo ataque básico de Akali com alcance e dano adicionais.
+        <br>Q -GOLPE DOS CINCO PONTOS - Akali atira cinco kunais, causando redução de velocidade e dano com base em seu Dano de Ataque adicional e Poder de Habilidade.
+        <br>W - PROTEÇÃO DO CREPÚSCULO - Akali solta uma proteção de fumaça e recebe Velocidade de Movimento por um curto período. Enquanto estiver dentro da proteção, Akali se torna invisível e não pode ser selecionada como alvo de habilidades e ataques inimigos. Atacar ou usar habilidades fará com que ela seja revelada brevemente.
+        <br>E - INVESTIDA SHURIKEN - Salta para trás e atira uma shuriken para a frente, causando Dano Mágico. O primeiro inimigo ou nuvem de fumaça que forem atingidos são marcados. Conjure novamente para avançar ao alvo marcado, causando dano adicional.
+        <br>R - EXECUÇÃO PERFEITA - Akali salta em uma direção, causando dano aos inimigos que atingir. Conjurar novamente: Akali avança em uma direção, executando todos os inimigos que atingir.
+        </p>`
     }else if(campeao == "alistar" || campeao == "Alistar"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg">`
-        description.innerHTML = `<p>Um poderoso guerreiro com uma temível reputação, 
-        Alistar busca vingança por seu clã, morto pelas mãos do império de Noxus.</p>`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: Moderada <br><br>Um poderoso guerreiro com uma temível reputação, Alistar busca vingança por seu clã, morto pelas mãos do império de Noxus.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - URRO TRIUNFANTE - Alistar carrega seu urro ao atordoar, deslocar a posição de Campeões inimigos ou quando inimigos próximos morrem. Quando estiver com o máximo de cargas, ele cura a si mesmo e aos Campeões aliados próximos.
+        <br>Q - PULVERIZAR - Alistar golpeia o chão, causando dano a inimigos próximos e arremessando-os ao ar.
+        <br>W - CABEÇADA - Alistar atinge o inimigo com sua cabeça, causando dano e jogando o alvo para trás.
+        <br>E - ATROPELAR - Alistar atropela unidades inimigas próximas, ignorando colisão com unidades e recebendo acúmulos caso cause dano a um Campeão inimigo. O próximo ataque básico com o máximo de acúmulos contra um Campeão inimigo causa Dano Mágico adicional e o atordoa.
+        <br>R - VONTADE INDESTRUTÍVEL - Alistar solta um urro selvagem, removendo todos os efeitos de Controle de Grupo de si mesmo, além de reduzir o Dano Físico e Mágico enquanto durar o efeito.
+        </p>`
     }else if(campeao == "amumu" || campeao == "Amumu"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg">`
-        description.innerHTML = `<p>Reza a lenda que Amumu é uma alma solitária e melancólica da antiga
-         Shurima que vaga sem rumo pelo mundo em busca de um amigo. Amaldiçoado por um feitiço ancestral
-          para permanecer só pela eternidade, seu toque traz a morte e sua afeição, a ruína.</p>`
+        description.innerHTML = `<p>Função: <span class="iconify" data-icon="dashicons:shield-alt" data-inline="false"></span> Tanque  |  Dificuldade: baixa <br><br>Reza a lenda que Amumu é uma alma solitária e melancólica da antiga Shurima que vaga sem rumo pelo mundo em busca de um amigo.
+        <br><br>HABILIDADES<br><br>
+        PASSIVA - OQUE AMALDIÇOADO - Os ataques básicos de Amumu Amaldiçoam seus inimigos, fazendo com que recebam Dano Verdadeiro adicional de qualquer Dano Mágico causado a eles.
+        <br>Q - LANÇAR BANDAGENS - Amumu lança uma bandagem pegajosa em seu alvo e se lança em sua direção, causando dano e atordoamento.
+        <br>W - DESESPERO - Tomados pela angústia, inimigos próximos perdem um percentual de sua Vida máxima a cada segundo e suas Maldições são restauradas.
+        <br>E - CHILIQUE - Reduz permanentemente o Dano Físico que Amumu receberia. Ele pode liberar sua fúria, causando dano a inimigos próximos. Sempre que Amumu é atingido, o Tempo de Recarga de Chilique é reduzido em 0,5 segundo.
+        <br>R - A MALDIÇÃO DA MÚMIA TRISTE - Amumu amarra unidades inimigas ao seu redor com ataduras, aplicando Maldição, causando dano e atordoando-as.
+        </p>`
     }else if(campeao == "anivia" || campeao == "Anivia"){
         champion.innerHTML = `<img class="imgChampion2" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_0.jpg">`
         description.innerHTML = `<p>Função: <span class="iconify" data-icon="subway:power" data-inline="false"></span> Mago  |  Dificuldade: Alta <br><br>Anivia é um espírito alado e benevolente que suporta infinitos ciclos de vida, 
